@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-import { NavigationService } from 'src/app/global-services/navigation.service';
-
 @Component({
   selector: 'app-intro',
   templateUrl: './intro.component.html',
@@ -9,7 +7,7 @@ import { NavigationService } from 'src/app/global-services/navigation.service';
 })
 export class IntroComponent implements OnInit {
 
-  constructor(public navigationService: NavigationService) { }
+  constructor() { }
 
   ngOnInit(): void {
   }
