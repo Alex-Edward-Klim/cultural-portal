@@ -1,9 +1,9 @@
 <div class="wrapper">
   <p>HEADER</p>
-  <button><a [routerLink]="['']">Home</a></button>
-  <button><a [routerLink]="['/content']">Main</a></button>
-  <button><a [routerLink]="['/content/architects']">List of Architects</a></button>
-  <button><a [routerLink]="['/content/team']">Our Team</a></button>
-  <button><a [routerLink]="['/content/worklog']">Worklog</a></button>
-  <button><a [routerLink]="['/content/styleguide']">Styleguide</a></button>
+  <a routerLink="" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">Home</a>
+  <a routerLink="/content" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">Main</a>
+  <a routerLink="/content/architects" routerLinkActive="active-link">List of Architects</a>
+  <a routerLink="/content/team" routerLinkActive="active-link">Our Team</a>
+  <a routerLink="/content/worklog" routerLinkActive="active-link">Worklog</a>
+  <a routerLink="/content/styleguide" routerLinkActive="active-link">Styleguide</a>
 </div>
