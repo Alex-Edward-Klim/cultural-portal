@@ -4,13 +4,26 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { CoreModule } from './core/core.module';
+import { MainModule } from './main/main.module';
+import { ArchitectsModule } from './architects/architects.module';
+import { TeamModule } from './team/team.module';
+import { WorklogModule } from './worklog/worklog.module';
+import { StyleguideModule } from './styleguide/styleguide.module';
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CoreModule,
+    MainModule,
+    ArchitectsModule,
+    TeamModule,
+    WorklogModule,
+    StyleguideModule
   ],
   providers: [],
   bootstrap: [AppComponent]

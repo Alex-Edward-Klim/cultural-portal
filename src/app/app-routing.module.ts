@@ -1,8 +1,47 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+import { ContentComponent } from './core/components/content/content.component';
+import { IntroComponent } from './core/components/intro/intro.component';
+import { MainComponent } from './main/components/main/main.component';
+import { ListOfArchitectsComponent } from './architects/components/list-of-architects/list-of-architects.component';
+import { OurTeamComponent } from './team/components/our-team/our-team.component';
+import { OurWorklogComponent } from './worklog/components/our-worklog/our-worklog.component';
+import { OurStyleguideComponent } from './styleguide/components/our-styleguide/our-styleguide.component';
 
-const routes: Routes = [];
+
+const routes: Routes = [
+  {
+    path: '',
+    component: IntroComponent
+  },
+  {
+    path: 'content',
+    component: ContentComponent,
+    children: [
+      {
+        path: '',
+        component: MainComponent
+      },
+      {
+        path: 'architects',
+        component: ListOfArchitectsComponent
+      },
+      {
+        path: 'team',
+        component: OurTeamComponent
+      },
+      {
+        path: 'worklog',
+        component: OurWorklogComponent
+      },
+      {
+        path: 'styleguide',
+        component: OurStyleguideComponent
+      }
+    ]
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
