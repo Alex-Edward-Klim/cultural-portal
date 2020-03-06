@@ -1,0 +1,12 @@
+{
+  "pageLinks": {
+    "enter": "Enter",
+    "home": "Home",
+    "main": "Main",
+    "listOfArchitects": "List of architects",
+    "ourTeam": "Our team",
+    "workLog": "Work log",
+    "styleGuide": "Style Guide",
+    "selectLanguage": "Language selection"
+  }
+}
