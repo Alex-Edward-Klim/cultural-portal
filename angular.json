@@ -32,6 +32,11 @@
               "src/assets/styles/normalize.css",
               "src/styles.scss"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/scss"
+              ]
+            },
             "scripts": []
           },
           "configurations": {
@@ -128,5 +133,8 @@
       }
     }
   },
-  "defaultProject": "cultural-portal"
+  "defaultProject": "cultural-portal",
+  "cli": {
+    "analytics": false
+  }
 }

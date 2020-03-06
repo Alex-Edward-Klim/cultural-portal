@@ -3,8 +3,7 @@ import { CommonModule } from '@angular/common';
 import { MainComponent } from './components/main/main.component';
 import { DayAuthorComponent } from './components/day-author/day-author.component';
 import { MatButtonModule } from '@angular/material/button';
-
-
+import {TranslateModule} from '@ngx-translate/core';
 
 @NgModule({
   declarations: [
@@ -14,6 +13,7 @@ import { MatButtonModule } from '@angular/material/button';
   imports: [
     CommonModule,
     MatButtonModule,
+    TranslateModule
   ]
 })
 export class MainModule { }

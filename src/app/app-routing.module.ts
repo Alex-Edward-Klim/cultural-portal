@@ -8,6 +8,7 @@ import { ListOfArchitectsComponent } from './architects/components/list-of-archi
 import { OurTeamComponent } from './team/components/our-team/our-team.component';
 import { OurWorklogComponent } from './worklog/components/our-worklog/our-worklog.component';
 import { OurStyleguideComponent } from './styleguide/components/our-styleguide/our-styleguide.component';
+import { PageNotFoundComponent } from './core/components/page-not-found/page-not-found.component';
 
 
 const routes: Routes = [
@@ -40,6 +41,10 @@ const routes: Routes = [
         component: OurStyleguideComponent
       }
     ]
+  },
+  {
+    path: '**',
+    component: PageNotFoundComponent
   }
 ];
 

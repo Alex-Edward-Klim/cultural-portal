@@ -1,0 +1,12 @@
+{
+  "pageLinks": {
+    "enter": "Вход",
+    "home": "Домашняя",
+    "main": "Главная",
+    "listOfArchitects": "Список архитекторов",
+    "ourTeam": "Наша команда",
+    "workLog": "Ворклог",
+    "styleGuide": "Стайлгайд",
+    "selectLanguage": "Выбор языка"
+  }
+}

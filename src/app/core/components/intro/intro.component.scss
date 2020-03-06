@@ -1,11 +1,20 @@
-.wrapper {
-  height: 100vh;
-  width: 100%;
-  border: 1px solid black;
+:host {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
-
-button {
-  display: block;
-  margin: auto;
-  margin-top: 50vh;
+.intro__btn {
+  min-width: 120px;
+  padding: 9px 25px 8px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 10px;
+  background: #1aaa55;
+  &:hover, &:focus {
+    filter: brightness(120%);
+  }
 }
