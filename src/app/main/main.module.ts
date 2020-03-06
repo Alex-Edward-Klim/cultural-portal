@@ -14,6 +14,8 @@ import {TranslateModule} from '@ngx-translate/core';
     CommonModule,
     MatButtonModule,
     TranslateModule
+  ],
+  providers: [
   ]
 })
 export class MainModule { }

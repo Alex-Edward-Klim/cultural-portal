@@ -1,5 +1,5 @@
-<img src="#" alt="author">
-<h2>Author name</h2>
-<p>life years</p>
-<p>about author</p>
+<img [src]=randomArchitect.img alt="author">
+<h2>{{randomArchitect.path + '.' + randomArchitect.name | translate}}</h2>
+<p>{{randomArchitect.path + '.' + randomArchitect.date | translate}}</p>
+<p>{{randomArchitect.path + '.' + randomArchitect.vita | translate}}</p>
 <button mat-stroked-button (click)=" showDetailedPage() ">find more</button>
