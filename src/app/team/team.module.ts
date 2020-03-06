@@ -1,13 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { OurTeamComponent } from './components/our-team/our-team.component';
+import {TranslateModule} from '@ngx-translate/core';
 
 
 
 @NgModule({
   declarations: [OurTeamComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    TranslateModule
   ]
 })
 export class TeamModule { }

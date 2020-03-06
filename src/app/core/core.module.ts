@@ -6,12 +6,14 @@ import { ContentComponent } from './components/content/content.component';
 import { IntroComponent } from './components/intro/intro.component';
 import { RouterModule } from '@angular/router';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import {TranslateModule} from '@ngx-translate/core';
 
 @NgModule({
   declarations: [HeaderComponent, FooterComponent, ContentComponent, IntroComponent, PageNotFoundComponent],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    TranslateModule
   ]
 })
 export class CoreModule { }
