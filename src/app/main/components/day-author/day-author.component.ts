@@ -5,11 +5,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './day-author.component.html',
   styleUrls: ['./day-author.component.scss']
 })
-export class DayAuthorComponent implements OnInit {
+export class DayAuthorComponent {
 
   constructor() { }
 
-  ngOnInit(): void {
+  public showDetailedPage() {
+    console.log('go to detailed page');
   }
-
 }
