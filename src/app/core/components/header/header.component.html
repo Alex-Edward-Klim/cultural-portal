@@ -1,9 +1,9 @@
 <div class="wrapper">
   <p>HEADER</p>
-  <button (click)="navigationService.goToHome()">Home</button>
-  <button (click)="navigationService.goToMain()">Main</button>
-  <button (click)="navigationService.goToList()">List of Architects</button>
-  <button (click)="navigationService.goToTeam()">Our Team</button>
-  <button (click)="navigationService.goToWorklog()">Worklog</button>
-  <button (click)="navigationService.goToStyleguide()">Styleguide</button>
+  <a routerLink="" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">Home</a>
+  <a routerLink="/content" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">Main</a>
+  <a routerLink="/content/architects" routerLinkActive="active-link">List of Architects</a>
+  <a routerLink="/content/team" routerLinkActive="active-link">Our Team</a>
+  <a routerLink="/content/worklog" routerLinkActive="active-link">Worklog</a>
+  <a routerLink="/content/styleguide" routerLinkActive="active-link">Styleguide</a>
 </div>
