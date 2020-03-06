@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+@import './scss/variables';
+@import './scss/mixins';
+
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #000;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: inherit;
+}
+* {
+  box-sizing: border-box;
+}
