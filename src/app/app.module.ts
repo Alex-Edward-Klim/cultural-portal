@@ -10,6 +10,7 @@ import { ArchitectsModule } from './architects/architects.module';
 import { TeamModule } from './team/team.module';
 import { WorklogModule } from './worklog/worklog.module';
 import { StyleguideModule } from './styleguide/styleguide.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { StyleguideModule } from './styleguide/styleguide.module';
     ArchitectsModule,
     TeamModule,
     WorklogModule,
-    StyleguideModule
+    StyleguideModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
