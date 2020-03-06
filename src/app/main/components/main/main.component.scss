@@ -1,5 +1,14 @@
+:host {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+div {
+  max-width: 800px;
+}
+
 p {
-  text-align: center;
-  font-weight: bold;
-  font-size: 70pt;
+  text-indent: 1.5em;
+  margin: 10px;
 }
