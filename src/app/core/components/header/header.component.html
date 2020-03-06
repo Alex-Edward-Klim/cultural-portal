@@ -1,9 +1,15 @@
-<div class="wrapper">
-  <p>HEADER</p>
-  <a routerLink="" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">Home</a>
-  <a routerLink="/content" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">Main</a>
-  <a routerLink="/content/architects" routerLinkActive="active-link">List of Architects</a>
-  <a routerLink="/content/team" routerLinkActive="active-link">Our Team</a>
-  <a routerLink="/content/worklog" routerLinkActive="active-link">Worklog</a>
-  <a routerLink="/content/styleguide" routerLinkActive="active-link">Styleguide</a>
-</div>
+<header class="header">
+  <h1 class="header__title">Архитекторы Беларуси</h1>
+  <nav class="header__nav">
+    <ul class="header__list">
+      <li class="header__item">
+        <a class="header__link" routerLink="/content/architects" routerLinkActive="active">Архитекторы</a>
+      </li>
+      <li class="header__item">
+        <a class="header__link" routerLink="/content"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact: true}">О портале</a>
+      </li>
+    </ul>
+  </nav>
+</header>
