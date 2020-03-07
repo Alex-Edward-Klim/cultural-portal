@@ -17,7 +17,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {ReactiveFormsModule} from '@angular/forms';
-import {ArchitectsApiService} from './core/services/architects-api.service';
 import {ArchitectsData} from '../locales/architects-data';
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -51,7 +50,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     ReactiveFormsModule
   ],
   providers: [
-    ArchitectsApiService,
     ArchitectsData
   ],
   bootstrap: [AppComponent]
