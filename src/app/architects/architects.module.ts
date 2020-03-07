@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
 import {MatCardModule} from '@angular/material/card';
 
-import { ArchitectInfoService } from './services/architect-info.service';
 import { AboutComponent } from './components/architect-detailed/about/about.component';
 import { ListOfArchitectsComponent } from './components/list-of-architects/list-of-architects.component';
 import { ArchitectDetailedComponent } from './components/architect-detailed/architect-detailed.component';
@@ -24,9 +23,6 @@ import { PhotoVideoMapComponent } from './components/architect-detailed/photo-vi
     CommonModule,
     TranslateModule,
     MatCardModule
-  ],
-  providers: [
-    ArchitectInfoService
   ]
 })
 export class ArchitectsModule { }
