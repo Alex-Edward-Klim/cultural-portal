@@ -17,6 +17,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {ReactiveFormsModule} from '@angular/forms';
+import {ArchitectsData} from '../locales/architects-data';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -48,7 +49,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatInputModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [
+    ArchitectsData
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

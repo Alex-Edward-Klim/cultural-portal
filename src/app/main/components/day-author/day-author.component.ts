@@ -1,13 +1,20 @@
 import { Component, OnInit } from '@angular/core';
+import {ArchitectsApiService} from '../../../core/services/architects-api.service';
 
 @Component({
   selector: 'app-day-author',
   templateUrl: './day-author.component.html',
   styleUrls: ['./day-author.component.scss']
 })
-export class DayAuthorComponent {
+export class DayAuthorComponent implements OnInit {
 
-  constructor() { }
+  public randomArchitect;
+
+  constructor(private architectsApi: ArchitectsApiService ) { }
+
+  ngOnInit(): void {
+    this.randomArchitect = this.architectsApi.getRandom();
+  }
 
   public showDetailedPage() {
     console.log('go to detailed page');
