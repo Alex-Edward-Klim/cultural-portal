@@ -23,7 +23,7 @@ export class AppComponent {
 
   public initForm() {
     this.languageForm = this.fb.group({
-      currentLanguage: null
+      currentLanguage: 'en'
     });
   }
 
