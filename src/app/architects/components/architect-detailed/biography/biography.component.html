@@ -1,4 +1,5 @@
+<h4>Biography</h4>
 <div class="history-event" *ngFor="let item of author.timelineData">
     <div class="date-arrow">{{ item.date }}</div>
-    <div class="info">{{ item.text }}</div>
+    <mat-card class="info">{{ item.text }}</mat-card>
 </div>
