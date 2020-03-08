@@ -4,6 +4,7 @@ import { MainComponent } from './components/main/main.component';
 import { DayAuthorComponent } from './components/day-author/day-author.component';
 import { MatButtonModule } from '@angular/material/button';
 import {TranslateModule} from '@ngx-translate/core';
+import {RouterModule} from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import {TranslateModule} from '@ngx-translate/core';
   imports: [
     CommonModule,
     MatButtonModule,
-    TranslateModule
+    TranslateModule,
+    RouterModule
   ]
 })
 export class MainModule { }

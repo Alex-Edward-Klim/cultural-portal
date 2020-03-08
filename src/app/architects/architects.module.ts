@@ -9,6 +9,7 @@ import { ArchitectDetailedComponent } from './components/architect-detailed/arch
 import { ColoredDirective } from './directives/colored.directive';
 import { BiographyComponent } from './components/architect-detailed/biography/biography.component';
 import { PhotoVideoMapComponent } from './components/architect-detailed/photo-video-map/photo-video-map.component';
+import {NgVerticalTimelineModule} from 'ng-vertical-timeline';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { PhotoVideoMapComponent } from './components/architect-detailed/photo-vi
   imports: [
     CommonModule,
     TranslateModule,
-    MatCardModule
+    MatCardModule,
+    NgVerticalTimelineModule
   ]
 })
 export class ArchitectsModule { }
