@@ -2,4 +2,4 @@
 <h2>{{randomArchitect.path + '.' + randomArchitect.name | translate}}</h2>
 <p>{{randomArchitect.path + '.' + randomArchitect.date | translate}}</p>
 <p>{{randomArchitect.path + '.' + randomArchitect.vita | translate}}</p>
-<button mat-stroked-button (click)=" showDetailedPage() ">find more</button>
+<a mat-button [routerLink]="['details', randomArchitect.id]">{{'pageLinks.More' | translate}}</a>

@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import { ArchitectsApiService } from 'src/app/core/services/architects-api.service';
+import {ActivatedRoute} from '@angular/router';
 
 
 @Component({
@@ -7,11 +8,15 @@ import { ArchitectsApiService } from 'src/app/core/services/architects-api.servi
   templateUrl: './architect-detailed.component.html',
   styleUrls: ['./architect-detailed.component.scss']
 })
-export class ArchitectDetailedComponent {
+export class ArchitectDetailedComponent implements OnInit{
 
   public author;
 
-  constructor(public _arcInfo: ArchitectsApiService) {
-    this.author = _arcInfo.currentArchitect;
+  constructor(private arcInfo: ArchitectsApiService, private route: ActivatedRoute) {}
+
+  ngOnInit(): void {
+    this.route.params.subscribe(params => {
+      this.author = this.arcInfo.getById(params.id);
+    });
   }
 }

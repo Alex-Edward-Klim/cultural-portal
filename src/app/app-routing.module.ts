@@ -42,8 +42,8 @@ const routes: Routes = [
         component: OurStyleguideComponent
       },
       {
-        path: 'details',
-        component: ArchitectDetailedComponent 
+        path: 'details/:id',
+        component: ArchitectDetailedComponent
       }
     ]
   },
