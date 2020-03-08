@@ -1,16 +1,15 @@
-import { Component } from '@angular/core';
-import { ArchitectsApiService } from '../../../../core/services/architects-api.service';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-biography',
   templateUrl: './biography.component.html',
   styleUrls: ['./biography.component.scss']
 })
-export class BiographyComponent {
+export class BiographyComponent implements OnInit{
 
-  public author;
+  @Input() author; 
 
-  constructor(public _arcInfo: ArchitectsApiService) {
-    this.author = this._arcInfo.currentArchitect;
-  }
+  constructor() { }
+
+  public ngOnInit(): void { }
 }
