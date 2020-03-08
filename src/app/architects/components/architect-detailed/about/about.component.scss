@@ -1,0 +1,39 @@
+@import '../../../../../scss/variables';
+
+:host {
+    display: flex;
+    justify-content: space-around;
+}
+
+h4 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.author {
+    text-align: center;
+    margin: 30px;
+    color: $font_color;
+}
+
+.portfolio {
+    margin: 30px;
+    color: $black;
+    table {
+        border-collapse: collapse;
+        .works-name {
+            width: 600px;
+            padding-right: 150px;
+            word-break: break-word;
+        }
+        .works-year {
+            text-align: right;
+        }
+        td {
+            padding: 10px;
+        }
+        .colored {
+            background-color: $sub_color; 
+        }
+    }
+}
