@@ -33,7 +33,9 @@
     "Gallery": "Gallery",
     "Search-area": "Name or city of architect",
     "No-results": "Nothing found",
-    "Map-of-works": "Buildings of the achitector on the map"
+    "Map-of-works": "Buildings of the achitector on the map",
+    "footerCreatedBy": "Created by the first group students",
+    "footerPoweredBy": "Powered by"
   },
   "ananich": {
     "name": "Yuri Stepanovich Ananich",
