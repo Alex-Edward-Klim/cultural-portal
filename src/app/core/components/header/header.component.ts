@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { NavigationService } from '../../services/navigation.service';
 
 @Component({
@@ -6,15 +6,11 @@ import { NavigationService } from '../../services/navigation.service';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent implements OnInit {
+export class HeaderComponent {
 
   public navigator;
 
   constructor(private nav: NavigationService) { 
     this.navigator = this.nav.navMenu;
   }
-
-  ngOnInit(): void {
-  }
-
 }
