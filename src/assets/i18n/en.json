@@ -121,5 +121,47 @@
     "worktitle1": "Government House of the Republic of Belarus",
     "worktitle2": "Central House of Officers",
     "worktitle3": "House of Soviets"
+  },
+  "dimlbc": {
+    "name": "Dmitri Lobachevski",
+    "feature": "Feature",
+    "time": "Time",
+    "feature1": "Feature1",
+    "time1": "Time1"
+  },
+  "julia": {
+    "name": "Julia",
+    "feature": "Feature",
+    "time": "Time",
+    "feature1": "Feature1",
+    "time1": "Time1"
+  },
+  "alexKlim": {
+    "name": "Alex Klim",
+    "feature": "Feature",
+    "time": "Time",
+    "feature1": "Feature1",
+    "time1": "Time"
+  },
+  "pavel": {
+    "name": "Pavel Leskovets",
+    "feature": "Feature",
+    "time": "time",
+    "feature1": "Feature1",
+    "time1": "time1"
+  },
+  "vladimir": {
+    "name": "Vladimir Drachuk",
+    "feature": "Feature",
+    "time": "time",
+    "feature1": "Feature1",
+    "time1": "time1"
+  },
+  "alex": {
+    "name": "Alex Klymenko",
+    "feature": "Feature",
+    "time": "time",
+    "feature1": "Feature1",
+    "time1": "time1"
   }
 }

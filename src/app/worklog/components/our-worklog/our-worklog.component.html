@@ -1,1 +1,24 @@
-<p>{{'pageLinks.workLog' | translate}}</p>
+<h2>{{'pageLinks.workLog' | translate}}</h2>
+<div class="accordion-wrapper">
+  <mat-accordion multi="true">
+    <mat-expansion-panel *ngFor="let member of team">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          {{member.name | translate}}
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <table mat-table [dataSource]="member.features" class="mat-elevation-z8">
+        <ng-container matColumnDef="feature">
+          <th mat-header-cell *matHeaderCellDef> Feature </th>
+          <td mat-cell *matCellDef="let element"> {{element.feature | translate}} </td>
+        </ng-container>
+        <ng-container matColumnDef="time">
+          <th mat-header-cell *matHeaderCellDef> Time Spent </th>
+          <td mat-cell *matCellDef="let element"> {{element.time | translate}} </td>
+        </ng-container>
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>

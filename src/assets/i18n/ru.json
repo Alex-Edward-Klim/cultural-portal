@@ -121,5 +121,47 @@
     "worktitle1": "Дом правительства Республики Беларусь",
     "worktitle2": "Центральный Дом офицеров",
     "worktitle3": "Дом Советов"
+  },
+  "dimlbc": {
+    "name": "Dmitri Lobachevski RU",
+    "feature": "FeatureRU",
+    "time": "TimeRU",
+    "feature1": "Feature1",
+    "time1": "Time1RU"
+  },
+  "julia": {
+    "name": "Julia",
+    "feature": "FeatureRU",
+    "time": "Time",
+    "feature1": "Feature1RU",
+    "time1": "Time1"
+  },
+  "alexKlim": {
+    "name": "Alex KlimRU",
+    "feature": "FeatureRU",
+    "time": "Time",
+    "feature1": "Feature1RU",
+    "time1": "Time"
+  },
+  "pavel": {
+    "name": "Pavel LeskovetsRU",
+    "feature": "Feature",
+    "time": "time",
+    "feature1": "Feature1RU",
+    "time1": "time1"
+  },
+  "vladimir": {
+    "name": "Vladimir DrachukRU",
+    "feature": "Feature",
+    "time": "time",
+    "feature1": "Feature1RU",
+    "time1": "time1"
+  },
+  "alex": {
+    "name": "Alex KlymenkoRU",
+    "feature": "Feature",
+    "time": "time",
+    "feature1": "Feature1RU",
+    "time1": "time1"
   }
 }

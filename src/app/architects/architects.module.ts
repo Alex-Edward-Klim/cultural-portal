@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
-import {MatCardModule} from '@angular/material/card';
+import { MatCardModule } from '@angular/material/card';
 
 import { AboutComponent } from './components/architect-detailed/about/about.component';
 import { ListOfArchitectsComponent } from './components/list-of-architects/list-of-architects.component';
@@ -19,10 +19,7 @@ import { PhotoVideoMapComponent } from './components/architect-detailed/photo-vi
     BiographyComponent,
     PhotoVideoMapComponent
   ],
-  imports: [
-    CommonModule,
-    TranslateModule,
-    MatCardModule
-  ]
+  exports: [ColoredDirective],
+  imports: [CommonModule, TranslateModule, MatCardModule]
 })
-export class ArchitectsModule { }
+export class ArchitectsModule {}

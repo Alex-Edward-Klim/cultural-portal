@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TeamMember, teamMembersWorklog } from '../../constants/team-members';
 
 @Component({
   selector: 'app-our-worklog',
@@ -6,10 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./our-worklog.component.scss']
 })
 export class OurWorklogComponent implements OnInit {
+  public displayedColumns: string[] = ['feature', 'time'];
+  public team: TeamMember[] = teamMembersWorklog;
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
