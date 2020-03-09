@@ -13,8 +13,22 @@ table {
   width: 100%;
 }
 
-.difficulties-container {
-  width: 90%;
-  margin: 2rem auto;
+.difficulties-wrapper {
+  padding: 2rem;
+  background-color: #F9E7D3;
+}
+h3 {
   text-align: center;
+}
+
+.difficulties {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.author {
+  align-self: flex-end;
 }

@@ -35,7 +35,14 @@
     "No-results": "Nothing found",
     "Map-of-works": "Buildings of the achitector on the map",
     "footerCreatedBy": "Created by the first group students",
-    "footerPoweredBy": "Powered by"
+    "footerPoweredBy": "Powered by",
+    "worklog-difficulties": "What was the most difficult to handle with?",
+    "difficulty1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quidem, quo quod reiciendis rem sapiente ut! Consequatur ea ratione voluptates.",
+    "difficulty1-author": "Alex Klimovskiy",
+    "difficulty2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quidem, quo quod reiciendis rem sapiente ut! Consequatur ea ratione voluptates.",
+    "difficulty2-author": "Alex Klimovskiy",
+    "difficulty3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quidem, quo quod reiciendis rem sapiente ut! Consequatur ea ratione voluptates.",
+    "difficulty3-author": "Alex Klimovskiy"
   },
   "ananich": {
     "name": "Yuri Stepanovich Ananich",
