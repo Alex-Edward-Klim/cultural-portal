@@ -30,6 +30,10 @@ const routes: Routes = [
         component: ListOfArchitectsComponent
       },
       {
+        path: 'architects/:id',
+        component: ArchitectDetailedComponent
+      },
+      {
         path: 'team',
         component: OurTeamComponent
       },

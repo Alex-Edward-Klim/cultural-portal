@@ -1,5 +1,54 @@
-p {
+.architects {
+  &__wrapper {
+
+  }
+  &__container {
+    padding-top: 25px;
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  &__item {
+    margin: 0 20px 70px;
+  }
+}
+.arch-card {
+  width: 100%;
+  max-width: 285px;
+  padding-bottom: 25px;
   text-align: center;
-  font-weight: bold;
-  font-size: 70pt;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  &__preview {
+    position: relative;
+    height: 240px;
+    margin-bottom: 20px;
+  }
+  &__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  &__title {
+    font-size: 24px;
+  }
+  &__date {
+    margin-bottom: 20px;
+  }
+  &__desc {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  &__btn {
+    padding: 8px 10px 9px;
+    min-width: 190px;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid #3E3636;
+    border-radius: 5px;
+  }
 }
