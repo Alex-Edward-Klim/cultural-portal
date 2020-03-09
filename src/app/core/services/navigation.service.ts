@@ -5,23 +5,23 @@ export class NavigationService {
 
   public navMenu = [
     {
-      title: 'intro',
+      title: 'pageLinks.home',
       routing: '/',
     },
     {
-      title: 'Main',
+      title: 'pageLinks.main',
       routing: '/content',
     },
     {
-      title: 'Architectors',
+      title: 'pageLinks.listOfArchitects',
       routing: '/content/architects',
     },
     {
-      title: 'Worklog',
+      title: 'pageLinks.workLog',
       routing: '/content/worklog',
     },
     {
-      title: 'Slyleguide',
+      title: 'pageLinks.styleGuide',
       routing: '/content/styleguide',
     },
 
