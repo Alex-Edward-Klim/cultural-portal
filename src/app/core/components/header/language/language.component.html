@@ -1,7 +1,7 @@
 <form [formGroup]="languageForm">
   <mat-form-field appearance="none">
-    <label for="select">{{ select.value.toUpperCase() }}</label>
-    <mat-select matNativeControl formControlName="currentLanguage" value="en" id="select" #select>
+    <label for="select">{{ select.value ? select.value.toUpperCase() : currentLang.toUpperCase() }}</label>
+    <mat-select matNativeControl formControlName="currentLanguage" id="select" #select>
       <mat-option value="ru">RU</mat-option>
       <mat-option value="en">EN</mat-option>
       <mat-option value="by">BY</mat-option>

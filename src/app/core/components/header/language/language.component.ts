@@ -9,8 +9,9 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class LanguageComponent {
 
+  private defaultLang: string = 'en';
+  public currentLang: string = localStorage.getItem('lang') || this.defaultLang;
   public languageForm: FormGroup;
-  public currentLang: string = 'en';
 
   constructor(private translateService: TranslateService,
               private fb: FormBuilder) {
@@ -27,5 +28,6 @@ export class LanguageComponent {
 
   public setLanguage(language: string) {
     this.translateService.setDefaultLang(language);
+    localStorage.setItem('lang', language);
   }
 }
