@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavigationService } from '../../services/navigation.service';
 
 @Component({
   selector: 'app-header',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  public navigator;
+
+  constructor(private nav: NavigationService) { 
+    this.navigator = this.nav.navMenu;
+  }
 
   ngOnInit(): void {
   }

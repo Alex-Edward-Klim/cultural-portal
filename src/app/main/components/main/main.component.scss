@@ -1,7 +1,7 @@
 :host {
   display: flex;
   justify-content: space-between;
-  padding: 30px;
+  padding: 30px 30px 90px 30px;
 }
 
 div {
@@ -11,4 +11,7 @@ div {
 p {
   text-indent: 1.5em;
   margin: 10px;
+  font-size: 20px;
+  line-height: 35px;
 }
+

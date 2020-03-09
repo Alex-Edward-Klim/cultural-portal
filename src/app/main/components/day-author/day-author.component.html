@@ -1,5 +1,9 @@
-<img [src]=randomArchitect.img alt="author">
-<h2>{{randomArchitect.path + '.' + randomArchitect.name | translate}}</h2>
-<p>{{randomArchitect.path + '.' + randomArchitect.date | translate}}</p>
-<p>{{randomArchitect.path + '.' + randomArchitect.vita | translate}}</p>
-<a mat-button [routerLink]="['details', randomArchitect.id]">{{'pageLinks.More' | translate}}</a>
+<div class="img-wrapper">
+    <img [src]=randomArchitect.img alt="author">
+</div>
+<div class="content">
+    <h4>{{randomArchitect.path + '.' + randomArchitect.name | translate}}</h4>
+    <p>{{randomArchitect.path + '.' + randomArchitect.date | translate}}</p>
+    <p>{{randomArchitect.path + '.' + randomArchitect.vita | translate}}</p>
+    <a mat-stroked-button [routerLink]="['details', randomArchitect.id]">{{'pageLinks.More' | translate}}</a>
+</div>

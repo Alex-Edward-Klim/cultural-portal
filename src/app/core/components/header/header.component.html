@@ -2,14 +2,26 @@
   <h1 class="header__title">Архитекторы Беларуси</h1>
   <nav class="header__nav">
     <ul class="header__list">
-      <li class="header__item">
+      <li class="header__item" *ngFor="let item of navigator">
+        <a class="header__link"
+          [routerLink]=" item.routing "
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{exact: true}">{{ item.title }}</a>
+      </li>
+
+
+
+
+
+      
+      <!--<li class="header__item">
         <a class="header__link" routerLink="/content/architects" routerLinkActive="active">Архитекторы</a>
       </li>
       <li class="header__item">
         <a class="header__link" routerLink="/content"
             routerLinkActive="active"
             [routerLinkActiveOptions]="{exact: true}">О портале</a>
-      </li>
+      </li>-->
     </ul>
   </nav>
 </header>
