@@ -21,7 +21,6 @@ export class LanguageComponent {
   }
 
   public initForm() {
-    if (!localStorage.getItem('lang')) localStorage.setItem('lang', this.defaultLang);
     this.languageForm = this.fb.group({
       currentLanguage: this.currentLang,
     });
