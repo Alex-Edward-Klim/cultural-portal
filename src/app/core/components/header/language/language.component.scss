@@ -1,0 +1,24 @@
+form {
+    position: relative; 
+}
+
+label {
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+mat-form-field {
+    position: absolute;
+    top: -20px;
+    border: none;
+    margin-left: 20px;
+}
+
+mat-select {
+    position: absolute;
+    visibility: hidden;
+    top: 12px;
+    left: 10px;
+    width: 0;
+}

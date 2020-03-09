@@ -1,29 +1,31 @@
 @import 'variables.scss';
 
-.header {
-  padding: 35px 0;
-  &__title {
+  h1 {
+    padding: 35px 0;
     margin: 0;
     text-align: center;
     font-size: 36px;
   }
-  &__nav {
+
+  nav {
     background: $main_color;
   }
-  &__list {
+
+  ul {
     display: flex;
     justify-content: center;
     padding: 10px 0;
     width: 100%;
   }
-  &__item {
+
+  li {
     margin: 0 20px;
   }
-  &__link {
+  
+  a {
     text-decoration: none;
     font-size: 20px;
     &.active, &:hover {
       text-decoration: underline;
     }
   }
-}

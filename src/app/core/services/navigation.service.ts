@@ -11,7 +11,6 @@ export class NavigationService {
     {
       title: 'Main',
       routing: '/content',
-      isActive: true,
     },
     {
       title: 'Architectors',
@@ -27,6 +26,4 @@ export class NavigationService {
     },
 
   ]
-
-  constructor() { }
 }
