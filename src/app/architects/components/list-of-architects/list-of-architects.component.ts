@@ -11,6 +11,7 @@ import {Router} from '@angular/router';
 export class ListOfArchitectsComponent implements OnInit {
 
   public architects: Architect[] = [];
+  public searchStr = '';
 
   constructor(
     private architectService: ArchitectService,

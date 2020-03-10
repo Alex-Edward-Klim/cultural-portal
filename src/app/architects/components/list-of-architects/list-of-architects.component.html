@@ -1,12 +1,12 @@
 <div class="architects__wrapper">
   <div class="architects__search">
-    <label class="architects__label"> Search...
-      <input type="text" class="architects__input">
+    <label class="architects__label">Search...
+      <input type="text" class="architects__input" [(ngModel)]="searchStr">
     </label>
   </div>
   <div class="architects__container">
     <ul class="architects__list">
-      <li class="architects__item arch-card" *ngFor="let architect of architects">
+      <li class="architects__item arch-card" *ngFor="let architect of architects | searchBy:searchStr">
         <div class="arch-card__preview">
           <img [src]="architect?.img" alt="" class="arch-card__img">
         </div>
