@@ -16,7 +16,7 @@
           <div class="arch-card__title">{{architect.path + '.' + architect.name | translate}}</div>
           <div class="arch-card__date">{{architect.path + '.' + architect.date | translate}}</div>
           <div class="arch-card__desc">{{architect.path + '.' + architect.vita | translate}}</div>
-          <a [routerLink]="architect.id" class="arch-card__link">
+          <a class="arch-card__link" routerLink="/content/architects/{{architect.id}}">
             {{'pageLinks.More' | translate}}
           </a>
         </div>
