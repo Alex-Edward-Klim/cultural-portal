@@ -6,11 +6,7 @@ import {ArchitectsData} from '../../../locales/architects-data';
 })
 export class ArchitectsApiService {
 
-  public currentArchitect;
-
-  constructor(private architectsData: ArchitectsData) {
-    this.currentArchitect = this.architectsData.authors[0];
-  }
+  constructor(private architectsData: ArchitectsData) { }
 
   public getAll() {
     return this.architectsData.authors;
