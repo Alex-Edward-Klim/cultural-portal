@@ -16,6 +16,7 @@ export class ArchitectDetailedComponent implements OnInit{
 
   ngOnInit(): void {
     this.route.params.subscribe(params => {
+      window.scrollTo(0, 0);
       this.author = this.arcInfo.getById(params.id);
     });
   }
