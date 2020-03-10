@@ -25,5 +25,5 @@ export class NavigationService {
       routing: '/content/styleguide',
     },
 
-  ]
+  ];
 }
