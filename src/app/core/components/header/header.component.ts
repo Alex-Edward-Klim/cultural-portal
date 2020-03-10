@@ -10,7 +10,7 @@ export class HeaderComponent {
 
   public navigator;
 
-  constructor(private nav: NavigationService) { 
+  constructor(private nav: NavigationService) {
     this.navigator = this.nav.navMenu;
   }
 }

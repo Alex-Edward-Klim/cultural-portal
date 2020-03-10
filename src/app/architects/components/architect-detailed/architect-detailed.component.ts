@@ -8,7 +8,7 @@ import {ActivatedRoute} from '@angular/router';
   templateUrl: './architect-detailed.component.html',
   styleUrls: ['./architect-detailed.component.scss']
 })
-export class ArchitectDetailedComponent implements OnInit{
+export class ArchitectDetailedComponent implements OnInit {
 
   public author;
 

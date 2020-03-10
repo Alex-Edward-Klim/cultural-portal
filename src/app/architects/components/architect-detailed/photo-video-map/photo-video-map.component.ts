@@ -6,8 +6,8 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./photo-video-map.component.scss']
 })
 export class PhotoVideoMapComponent implements OnInit {
-  
-  @Input() author; 
+
+  @Input() author;
 
   constructor() { }
 
