@@ -21,7 +21,8 @@ export class NavigationService {
     },
     {
       title: 'pageLinks.styleGuide',
-      routing: '/content/styleguide'
-    }
+
+      routing: '/content/styleguide',
+    },
   ];
 }
