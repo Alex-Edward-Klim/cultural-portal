@@ -23,13 +23,58 @@
   </mat-accordion>
 </div>
 <div class="difficulties-wrapper">
-  <h3>{{'pageLinks.worklog-difficulties' | translate}}</h3>
+  <h3>{{'worklog.worklog-difficulties' | translate}}</h3>
   <div class="difficulties">
-    <blockquote>{{'pageLinks.difficulty1' | translate}}</blockquote>
-    <cite class="author">{{'pageLinks.difficulty1-author' | translate}}</cite>
-    <blockquote>{{'pageLinks.difficulty2' | translate}}</blockquote>
-    <cite class="author">{{'pageLinks.difficulty2-author' | translate}}</cite>
-    <blockquote>{{'pageLinks.difficulty3' | translate}}</blockquote>
-    <cite class="author">{{'pageLinks.difficulty3-author' | translate}}</cite>
+    <blockquote>{{'worklog.difficulty1' | translate}}</blockquote>
+    <cite class="author">{{'worklog.difficulty1-author' | translate}}</cite>
+    <blockquote>{{'worklog.difficulty2' | translate}}</blockquote>
+    <cite class="author">{{'worklog.difficulty2-author' | translate}}</cite>
+    <blockquote>{{'worklog.difficulty3' | translate}}</blockquote>
+    <cite class="author">{{'worklog.difficulty3-author' | translate}}</cite>
+  </div>
+</div>
+<div class="self-evaluation-container">
+  <h3>{{'worklog.title' | translate}}</h3>
+  <div class="min-scope">
+    <div class="total">
+      {{'min-scope.title' | translate}}: {{minScopeActual}}/{{minScopeTotal}}
+    </div>
+    <mat-checkbox *ngFor="let item of minScope"
+                  [checked]="item.completed"
+                  (change)="item.completed = !item.completed;
+                  onMinScopeChange()"
+    >
+      <strong>{{item.value}}</strong>
+      {{item.text | translate}}
+    </mat-checkbox>
+  </div>
+  <div class="normal-scope">
+    <div class="total">
+      {{'normal-scope.title' | translate}}: {{normalScopeActual}}/{{normalScopeTotal}}
+    </div>
+    <mat-checkbox *ngFor="let item of normalScope"
+                  [checked]="item.completed"
+                  (change)="item.completed = !item.completed;
+                  onNormalScopeChange()"
+    >
+      <strong>{{item.value}}</strong>
+      {{item.text | translate}}
+    </mat-checkbox>
+  </div>
+  <div class="extra-scope">
+    <div class="total">
+      {{'extra-scope.title' | translate}}: {{extraScopeActual}}/{{extraScopeTotal}}
+    </div>
+    <mat-checkbox *ngFor="let item of extraScope"
+                  [checked]="item.completed"
+                  (change)="item.completed = !item.completed;
+                  onExtraScopeChange()"
+    >
+      <strong>{{item.value}}</strong>
+      {{item.text | translate}}
+    </mat-checkbox>
+  </div>
+  <div class="total-container">
+    {{'worklog.total' | translate}}: {{actualScore}} / {{totalScore}}
   </div>
 </div>

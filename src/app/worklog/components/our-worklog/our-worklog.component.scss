@@ -3,16 +3,13 @@ h2 {
   text-align: center;
   text-transform: uppercase;
 }
-
 .accordion-wrapper {
   width: 90%;
   margin: 2rem auto;
 }
-
 table {
   width: 100%;
 }
-
 .difficulties-wrapper {
   padding: 2rem;
   background-color: #F9E7D3;
@@ -28,7 +25,31 @@ h3 {
   flex-direction: column;
   align-items: center;
 }
-
 .author {
   align-self: flex-end;
+}
+.self-evaluation-container {
+  width: 85%;
+  margin: 1rem auto;
+}
+h3 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.total {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+.min-scope, .normal-scope, .extra-scope {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+mat-checkbox{
+  font-size: 1rem;
+  margin-bottom: .2rem;
+}
+.total-container {
+  font-size: 1.5rem;
 }

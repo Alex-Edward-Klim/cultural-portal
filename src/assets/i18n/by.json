@@ -35,14 +35,7 @@
     "No-results": "Нічога не знойдзена",
     "Map-of-works": "Будынкi архітэктара на карце",
     "footerCreatedBy": "Сайт створаны студэнтамі першай групы",
-    "footerPoweredBy": "Пры падтрымцы",
-    "worklog-difficulties": "Што было самае цяжкае пры працы над праектам?)))",
-    "difficulty1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quidem, quo quod reiciendis rem sapiente ut! Consequatur ea ratione voluptates.",
-    "difficulty1-author": "Alex Klimovskiy",
-    "difficulty2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quidem, quo quod reiciendis rem sapiente ut! Consequatur ea ratione voluptates.",
-    "difficulty2-author": "Alex Klimovskiy",
-    "difficulty3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quidem, quo quod reiciendis rem sapiente ut! Consequatur ea ratione voluptates.",
-    "difficulty3-author": "Alex Klimovskiy"
+    "footerPoweredBy": "Пры падтрымцы"
   },
   "ananich": {
     "name": "Юрый Сцяпанавіч Ананіч",
@@ -170,5 +163,42 @@
     "time": "time BY",
     "feature1": "Feature1",
     "time1": "time1"
+  },
+  "min-scope": {
+    "item1": "Main page + page with a list of authors + author's page (only pages with content without widgets) BY",
+    "item2": "Page with team members + page with worklog",
+    "item3": "Page with list of authors contains search widget",
+    "item4": "Portal has two languages"
+  },
+  "normal-scope": {
+    "item1": "Portal has page with styleguide BY",
+    "item2": "Mobile version is okey",
+    "item3": "Ipad/tablet version is okey",
+    "item4": "Author's page contains timeline",
+    "item5": "Author's page contains video overlay",
+    "item6": "Author's page contains photo gallery",
+    "item7": "Author's page contains map (geowidget)",
+    "item8": "Design (typography, icons, colors, links + buttons + input, ui components are styled)",
+    "item9": "Material-ui / bootstrap is used",
+    "item10": "Portal has third language"
+  },
+  "extra-scope": {
+    "item1": "Confidence of the project presentation BY",
+    "item2": "Project is made using scully",
+    "item3": "Contentful / netlify cms / other cms is used for content management",
+    "item4": "Animations / special effects like paralax",
+    "item5": "Outstanding design",
+    "item6": "Storybook/angularplayground/compodoc/other angulaer styleguide/documentation tool usage for the page with stylesq"
+  },
+  "worklog": {
+    "title": "Самооценка",
+    "worklog-difficulties": "Што было самае цяжкае пры працы над праектам?)))",
+    "difficulty1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quidem, quo quod reiciendis rem sapiente ut! Consequatur ea ratione voluptates.",
+    "difficulty1-author": "Alex Klimovskiy",
+    "difficulty2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quidem, quo quod reiciendis rem sapiente ut! Consequatur ea ratione voluptates.",
+    "difficulty2-author": "Alex Klimovskiy",
+    "difficulty3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quidem, quo quod reiciendis rem sapiente ut! Consequatur ea ratione voluptates.",
+    "difficulty3-author": "Alex Klimovskiy",
+    "total": "Total"
   }
 }
