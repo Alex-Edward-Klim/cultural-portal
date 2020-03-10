@@ -1,5 +1,7 @@
+import { Architect } from '../app/architects/models/architect.interface';
+
 export class ArchitectsData {
-  public authors = [
+  public authors: Architect[] = [
     {
       id: '1',
       path: 'levin',
@@ -12,9 +14,7 @@ export class ArchitectsData {
       lng: 'en',
       birthPlace: 'birthPlace',
       geovidgetLink: 'mid=1DMvXxw4BPZYozlqBwvqmgzWLMr6HpzH5',
-      searchKeyEn: 'Leonid Mendelevich Levin Minsk',
-      searchKeyRu: 'леонид менделевич левин минск',
-      searchKeyBy: 'леанід мендзялевіч левін мінск',
+      searchKey: 'searchKey',
       timelineData: [
         {
           date: '1954-1960',
@@ -85,9 +85,7 @@ export class ArchitectsData {
       vita: 'vita',
       authorOfTheDay: 'false',
       lng: 'en',
-      searchKeyEn: 'Giuseppe de Sacco verona',
-      searchKeyRu: 'джузеппе де сакко верона',
-      searchKeyBy: 'джузэппэ дэ сако вярона',
+      searchKey: 'searchKey',
       birthPlace: 'birthPlace',
       geovidgetLink: 'mid=10ZwynmgbM79zAAagBDpS4fxav_vpOQfO',
       timelineData: [
@@ -154,9 +152,7 @@ export class ArchitectsData {
       lng: 'en',
       birthPlace: 'birthPlace',
       geovidgetLink: 'mid=1XdWwCcjN5n_7C0kFCxcq2G2r2VYV6fFO',
-      searchKeyEn: 'Victor Karako grodno',
-      searchKeyRu: 'виктор карако гродно',
-      searchKeyBy: 'віктар карака гародня',
+      searchKey: 'searchKey',
       timelineData: [
         {
           date: '1966—1972',
@@ -211,9 +207,7 @@ export class ArchitectsData {
       lng: 'en',
       birthPlace: 'birthPlace',
       geovidgetLink: 'mid=1vhu3Tx8WxYjPhjjqoz1_mbK6wuDt-yPn',
-      searchKeyEn: 'Yuri Stepanovich Ananich Minsk',
-      searchKeyRu: 'юрий степанович ананич минск',
-      searchKeyBy: 'юрый сцяпанавіч ананіч мінск',
+      searchKey: 'searchKey',
       timelineData: [
         {
           date: '1978',
@@ -249,6 +243,8 @@ export class ArchitectsData {
         },
         {
           title: 'worktitle3',
+          width: 53.898,
+          length: 27.551,
           date: '2012',
           img: '/works/Ananich/бсб-банк.jpg'
         },
@@ -271,9 +267,7 @@ export class ArchitectsData {
       vita: 'vita',
       authorOfTheDay: 'false',
       lng: 'en',
-      searchKeyEn: 'Iosif Langbard saint-petersbourg',
-      searchKeyRu: 'иосиф лангбард санкт-петербург',
-      searchKeyBy: 'іосіф лангбард санкт-петербург',
+      searchKey: 'searchKey',
       birthPlace: 'birthPlace',
       geovidgetLink: 'mid=1azzyT0kI_WJG5h08u9p0Kt-Nv_h_FO8s',
       timelineData: [
@@ -333,9 +327,7 @@ export class ArchitectsData {
       authorOfTheDay: 'false',
       lng: 'en',
       geovidgetLink: 'mid=1h1uJwA9rkRhJToIj-Wna3cup2YWiBSDE',
-      searchKeyEn: 'Paolo Antonio Domenico Fontana italy',
-      searchKeyRu: 'паоло антонио доменико фонтана италия',
-      searchKeyBy: 'паоло антоніо доменіко фонтана італія',
+      searchKey: 'searchKey',
       birthPlace: 'birthPlace',
       timelineData: [
         {

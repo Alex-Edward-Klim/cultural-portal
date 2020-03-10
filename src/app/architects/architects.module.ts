@@ -9,6 +9,9 @@ import { ArchitectDetailedComponent } from './components/architect-detailed/arch
 import { ColoredDirective } from './directives/colored.directive';
 import { BiographyComponent } from './components/architect-detailed/biography/biography.component';
 import { PhotoVideoMapComponent } from './components/architect-detailed/photo-video-map/photo-video-map.component';
+import { SearchByPipe } from '../shared/pipes/search-by.pipe';
+import { FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -17,9 +20,10 @@ import { PhotoVideoMapComponent } from './components/architect-detailed/photo-vi
     AboutComponent,
     ColoredDirective,
     BiographyComponent,
-    PhotoVideoMapComponent
+    PhotoVideoMapComponent,
+    SearchByPipe
   ],
-  exports: [ColoredDirective],
-  imports: [CommonModule, TranslateModule, MatCardModule]
+  imports: [CommonModule, TranslateModule, MatCardModule, FormsModule, RouterModule],
+  exports: [SearchByPipe]
 })
 export class ArchitectsModule {}

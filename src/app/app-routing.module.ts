@@ -11,7 +11,6 @@ import { OurStyleguideComponent } from './styleguide/components/our-styleguide/o
 import { PageNotFoundComponent } from './core/components/page-not-found/page-not-found.component';
 import { ArchitectDetailedComponent } from './architects/components/architect-detailed/architect-detailed.component';
 
-
 const routes: Routes = [
   {
     path: '',
@@ -30,6 +29,10 @@ const routes: Routes = [
         component: ListOfArchitectsComponent
       },
       {
+        path: 'architects/:id',
+        component: ArchitectDetailedComponent
+      },
+      {
         path: 'team',
         component: OurTeamComponent
       },
@@ -40,10 +43,6 @@ const routes: Routes = [
       {
         path: 'styleguide',
         component: OurStyleguideComponent
-      },
-      {
-        path: 'details/:id',
-        component: ArchitectDetailedComponent
       }
     ]
   },
@@ -57,4 +56,4 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
