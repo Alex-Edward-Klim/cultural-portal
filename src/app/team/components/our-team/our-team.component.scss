@@ -83,3 +83,46 @@ h2 {
   background-color: $main_color;
   color: $font_color;
 }
+
+@media (max-width: 940px) {
+  .wrp {
+    padding: 70px 20px;
+  }
+}
+
+@media (max-width: 820px) {
+  .item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text {
+    margin-left: 0 !important;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 630px) {
+  .list {
+    grid-template-columns: 1fr;
+  }
+
+  .photo {
+    margin: 0 auto;
+  }
+
+  .text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 420px) {
+  h2 {
+    font-size: 24pt;
+  }
+
+  .photo {
+    width: 120px;
+    height: 120px;
+  }
+}
