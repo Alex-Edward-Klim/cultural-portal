@@ -7,7 +7,6 @@ import { NavigationService } from '../../services/navigation.service';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-
   public navigator;
 
   constructor(private nav: NavigationService) {

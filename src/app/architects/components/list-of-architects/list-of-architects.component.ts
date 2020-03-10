@@ -1,6 +1,6 @@
-import {Component, OnInit} from '@angular/core';
-import {Architect} from '../../models/architect.interface';
-import {ArchitectsApiService} from '../../../core/services/architects-api.service';
+import { Component, OnInit } from '@angular/core';
+import { Architect } from '../../models/architect.interface';
+import { ArchitectsApiService } from '../../../core/services/architects-api.service';
 
 @Component({
   selector: 'app-list-of-architects',
@@ -8,14 +8,10 @@ import {ArchitectsApiService} from '../../../core/services/architects-api.servic
   styleUrls: ['./list-of-architects.component.scss']
 })
 export class ListOfArchitectsComponent implements OnInit {
-
   public architects: Architect[] = [];
   public searchStr = '';
 
-  constructor(
-    private architectService: ArchitectsApiService,
-  ) {
-  }
+  constructor(private architectService: ArchitectsApiService) {}
 
   ngOnInit(): void {
     this.getArchitects();

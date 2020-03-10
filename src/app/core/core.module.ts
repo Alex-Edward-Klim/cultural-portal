@@ -22,12 +22,14 @@ export function HttpLoaderFactory(http: HttpClient) {
 }
 
 @NgModule({
-  declarations: [HeaderComponent,
+  declarations: [
+    HeaderComponent,
     FooterComponent,
     ContentComponent,
     IntroComponent,
     PageNotFoundComponent,
-    LanguageComponent],
+    LanguageComponent
+  ],
   imports: [
     CommonModule,
     RouterModule,
@@ -43,8 +45,8 @@ export function HttpLoaderFactory(http: HttpClient) {
         useFactory: HttpLoaderFactory,
         deps: [HttpClient]
       }
-    }),
+    })
   ],
-  providers: [NavigationService],
+  providers: [NavigationService]
 })
-export class CoreModule { }
+export class CoreModule {}
