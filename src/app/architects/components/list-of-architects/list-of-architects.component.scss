@@ -1,9 +1,21 @@
 .architects {
   &__wrapper {
-
+    min-height: 350px;
   }
-  &__container {
-    padding-top: 25px;
+  &__search {
+    margin: 25px auto;
+    max-width: 840px;
+  }
+  &__input {
+    padding: 7px 20px 8px;
+    width: 100%;
+    font-size: 20px;
+    background: #fff;
+    border: 1px solid #3E3636;
+    border-radius: 20px;
+    &:focus {
+      outline: none;
+    }
   }
   &__list {
     display: flex;
@@ -36,15 +48,24 @@
     height: 100%;
     object-fit: cover;
   }
+  &__content {
+    padding: 0 15px;
+  }
   &__title {
     font-size: 24px;
+    margin-bottom: 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
   }
   &__date {
     margin-bottom: 20px;
   }
   &__desc {
     margin-bottom: 20px;
+    max-height: 40px;
     font-size: 16px;
+    overflow: hidden;
   }
   &__btn {
     padding: 8px 10px 9px;

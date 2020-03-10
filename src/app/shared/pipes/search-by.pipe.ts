@@ -17,7 +17,7 @@ export class SearchByPipe implements PipeTransform {
       return list;
     }
 
-    return list.filter(item => this.translate.instant(`${item.path}.${item.name}`).toLowerCase().includes(search.toLowerCase()));
+    return list.filter(item => this.translate.instant(`${item.path}.${item.searchKey}`).toLowerCase().includes(search.toLowerCase()));
   }
 
 }

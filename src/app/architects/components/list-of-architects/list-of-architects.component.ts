@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
-import {ArchitectService} from '../../services/architect.service';
 import {Architect} from '../../models/architect.interface';
 import {Router} from '@angular/router';
+import {ArchitectsApiService} from '../../../core/services/architects-api.service';
 
 @Component({
   selector: 'app-list-of-architects',
@@ -14,7 +14,7 @@ export class ListOfArchitectsComponent implements OnInit {
   public searchStr = '';
 
   constructor(
-    private architectService: ArchitectService,
+    private architectService: ArchitectsApiService,
     private router: Router,
   ) {
   }
@@ -24,7 +24,7 @@ export class ListOfArchitectsComponent implements OnInit {
   }
 
   public getArchitects(): void {
-    this.architects = this.architectService.fetchArchitects();
+    this.architects = this.architectService.getAll();
   }
 
   public navigateToDetail(id: string): void {

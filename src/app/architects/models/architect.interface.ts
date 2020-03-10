@@ -10,9 +10,7 @@ export interface Architect {
   lng: string; // 'en'
   birthPlace: string; // 'birthPlace'
   geovidgetLink: string; // 'mid=1DMvXxw4BPZYozlqBwvqmgzWLMr6HpzH5'
-  searchKeyEn: string; // 'Leonid Mendelevich Levin Minsk'
-  searchKeyRu: string; // 'леонид менделевич левин минск'
-  searchKeyBy: string; // 'леанід мендзялевіч левін мінск'
+  searchKey: string; // 'Leonid Mendelevich Levin Minsk'
   timelineData: ArchitectTimeline[];
   work: ArchitectWork[];
 }

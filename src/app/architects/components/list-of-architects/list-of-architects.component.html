@@ -1,19 +1,25 @@
 <div class="architects__wrapper">
   <div class="architects__search">
-    <label class="architects__label">Search...
-      <input type="text" class="architects__input" [(ngModel)]="searchStr">
+    <label class="architects__label">
+      <input type="text" class="architects__input"
+             [(ngModel)]="searchStr"
+             placeholder="{{'pageLinks.Search-area' | translate}}">
     </label>
   </div>
   <div class="architects__container">
     <ul class="architects__list">
       <li class="architects__item arch-card" *ngFor="let architect of architects | searchBy:searchStr">
         <div class="arch-card__preview">
-          <img [src]="architect?.img" alt="" class="arch-card__img">
+          <img [src]="architect?.img" [alt]="architect?.name" class="arch-card__img">
         </div>
-        <div class="arch-card__title">{{architect.path + '.' + architect.name | translate}}</div>
-        <div class="arch-card__date">{{architect.path + '.' + architect.date | translate}}</div>
-        <div class="arch-card__desc">{{architect.path + '.' + architect.vita | translate}}</div>
-        <button class="arch-card__btn" (click)="navigateToDetail(architect.id)">More...</button>
+        <div class="arch-card__content">
+          <div class="arch-card__title">{{architect.path + '.' + architect.name | translate}}</div>
+          <div class="arch-card__date">{{architect.path + '.' + architect.date | translate}}</div>
+          <div class="arch-card__desc">{{architect.path + '.' + architect.vita | translate}}</div>
+          <button class="arch-card__btn" (click)="navigateToDetail(architect.id)">
+            {{'pageLinks.More' | translate}}
+          </button>
+        </div>
       </li>
     </ul>
   </div>
