@@ -1,4 +1,4 @@
-import {Architect} from '../app/architects/models/architect.interface';
+import { Architect } from '../app/architects/models/architect.interface';
 
 export class ArchitectsData {
   public authors: Architect[] = [
