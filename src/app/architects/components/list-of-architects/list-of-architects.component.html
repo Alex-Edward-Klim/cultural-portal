@@ -16,9 +16,9 @@
           <div class="arch-card__title">{{architect.path + '.' + architect.name | translate}}</div>
           <div class="arch-card__date">{{architect.path + '.' + architect.date | translate}}</div>
           <div class="arch-card__desc">{{architect.path + '.' + architect.vita | translate}}</div>
-          <button class="arch-card__btn" (click)="navigateToDetail(architect.id)">
+          <a [routerLink]="architect.id" class="arch-card__link">
             {{'pageLinks.More' | translate}}
-          </button>
+          </a>
         </div>
       </li>
     </ul>

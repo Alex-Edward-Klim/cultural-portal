@@ -45,10 +45,6 @@ const routes: Routes = [
         path: 'styleguide',
         component: OurStyleguideComponent
       },
-      {
-        path: 'details/:id',
-        component: ArchitectDetailedComponent
-      }
     ]
   },
   {

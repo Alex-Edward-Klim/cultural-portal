@@ -11,6 +11,7 @@ import {BiographyComponent} from './components/architect-detailed/biography/biog
 import {PhotoVideoMapComponent} from './components/architect-detailed/photo-video-map/photo-video-map.component';
 import {SearchByPipe} from '../shared/pipes/search-by.pipe';
 import {FormsModule} from '@angular/forms';
+import {RouterModule} from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import {FormsModule} from '@angular/forms';
     TranslateModule,
     MatCardModule,
     FormsModule,
+    RouterModule,
   ],
   exports: [
     SearchByPipe,
