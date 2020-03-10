@@ -12,6 +12,8 @@ import {PhotoVideoMapComponent} from './components/architect-detailed/photo-vide
 import {SearchByPipe} from '../shared/pipes/search-by.pipe';
 import {FormsModule} from '@angular/forms';
 import {RouterModule} from '@angular/router';
+import {PhotoGalleryComponent} from './components/architect-detailed/photo-gallery/photo-gallery.component';
+import {CarouselModule} from 'angular-bootstrap-md';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,7 @@ import {RouterModule} from '@angular/router';
     ColoredDirective,
     BiographyComponent,
     PhotoVideoMapComponent,
+    PhotoGalleryComponent,
     SearchByPipe,
   ],
   imports: [
@@ -29,6 +32,7 @@ import {RouterModule} from '@angular/router';
     MatCardModule,
     FormsModule,
     RouterModule,
+    CarouselModule,
   ],
   exports: [
     SearchByPipe,

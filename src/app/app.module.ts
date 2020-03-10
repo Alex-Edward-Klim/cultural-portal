@@ -11,6 +11,7 @@ import {TeamModule} from './team/team.module';
 import {WorklogModule} from './worklog/worklog.module';
 import {StyleguideModule} from './styleguide/styleguide.module';
 import {ArchitectsData} from '../locales/architects-data';
+import {MDBBootstrapModule} from 'angular-bootstrap-md';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,7 @@ import {ArchitectsData} from '../locales/architects-data';
     WorklogModule,
     StyleguideModule,
     MatInputModule,
-
+    MDBBootstrapModule.forRoot()
   ],
   providers: [
     ArchitectsData

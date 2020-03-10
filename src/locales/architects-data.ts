@@ -43,35 +43,35 @@ export class ArchitectsData {
           width: 53.898,
           length: 27.56,
           date: '1969',
-          img: '/works/Levin/Колас.jpg'
+          img: '/assets/works/Levin/Колас.jpg'
         },
         {
           title: 'worktitle2',
           width: 53.898,
           length: 27.551,
           date: '1972',
-          img: '/works/Levin/Купала.jpg'
+          img: '/assets/works/Levin/Купала.jpg'
         },
         {
           title: 'worktitle3',
           width: 53.898,
           length: 27.551,
           date: '1972',
-          img: '/works/Levin/Метро.jpg'
+          img: '/assets/works/Levin/Метро.jpg'
         },
         {
           title: 'worktitle4',
           width: 53.898331,
           length: 27.560555,
           date: '1984',
-          img: '/works/Levin/Предместье.jpg'
+          img: '/assets/works/Levin/Предместье.jpg'
         },
         {
           title: 'worktitle5',
           width: 53.898331,
           length: 27.560555,
           date: '1980—1986',
-          img: '/works/Levin/Хатынь.jpg'
+          img: '/assets/works/Levin/Хатынь.jpg'
         }
       ]
     },
@@ -108,35 +108,35 @@ export class ArchitectsData {
           width: 53.898,
           length: 27.56,
           date: 'XVIII century',
-          img: '/works/Sakko/площадь.jpg'
+          img: '/assets/works/Sakko/площадь.jpg'
         },
         {
           title: 'worktitle2',
           width: 53.898,
           length: 27.551,
           date: 'XVIII century',
-          img: '/works/Sakko/Святский.jpg'
+          img: '/assets/works/Sakko/Святский.jpg'
         },
         {
           title: 'worktitle3',
           width: 53.898,
           length: 27.551,
           date: 'XVIII century',
-          img: '/works/Sakko/театр.jpg'
+          img: '/assets/works/Sakko/театр.jpg'
         },
         {
           title: 'worktitle4',
           width: 53.898,
           length: 27.551,
           date: 'XVIII century',
-          img: '/works/Sakko/щорсы.jpg'
+          img: '/assets/works/Sakko/Щорсы.jpg'
         },
         {
           title: 'worktitle5',
           width: 53.898,
           length: 27.551,
           date: 'XVIII century',
-          img: '/works/Sakko/Ciążeń.jpg'
+          img: '/assets/works/Sakko/Ciążeń.jpg'
         }
       ]
     },
@@ -177,21 +177,21 @@ export class ArchitectsData {
           width: 53.898,
           length: 27.56,
           date: '1970',
-          img: '/works/Karako/банк.jpg'
+          img: '/assets/works/Karako/банк.jpg'
         },
         {
           title: 'worktitle2',
           width: 53.898,
           length: 27.551,
           date: 'XVIII century',
-          img: '/works/Karako/ЦМ.jpg'
+          img: '/assets/works/Karako/ЦМ.jpg'
         },
         {
           title: 'worktitle3',
           width: 53.898,
           length: 27.551,
           date: '2004',
-          img: '/works/Karako/Школа.jpg'
+          img: '/assets/works/Karako/Школа.jpg'
         }
       ]
     },
@@ -232,28 +232,28 @@ export class ArchitectsData {
           width: 53.898,
           length: 27.56,
           date: '2007',
-          img: '/works/Ananich/беларусбанк.jpg'
+          img: '/assets/works/Ananich/беларусбанк.jpg'
         },
         {
           title: 'worktitle2',
           width: 53.898,
           length: 27.551,
           date: '2016',
-          img: '/works/Ananich/посольство.jpg'
+          img: '/assets/works/Ananich/посольство.jpg'
         },
         {
           title: 'worktitle3',
           width: 53.898,
           length: 27.551,
           date: '2012',
-          img: '/works/Ananich/бсб-банк.jpg'
+          img: '/assets/works/Ananich/бсб-банк.jpg'
         },
         {
           title: 'worktitle4',
           width: 53.898331,
           length: 27.560555,
           date: '2007',
-          img: '/works/Ananich/нацбанк.jpg'
+          img: '/assets/works/Ananich/нацбанк.jpg'
         }
       ]
     },
@@ -298,21 +298,21 @@ export class ArchitectsData {
           width: 53.898,
           length: 27.56,
           date: '1930-1934',
-          img: '/works/Langbard/ленинград.jpg'
+          img: '/assets/works/Langbard/ленинград.jpg'
         },
         {
           title: 'worktitle2',
           width: 53.898,
           length: 27.551,
           date: '1934-1939',
-          img: '/works/Langbard/офицер.jpg'
+          img: '/assets/works/Langbard/офицер.jpg'
         },
         {
           title: 'worktitle3',
           width: 53.898,
           length: 27.551,
           date: '1935',
-          img: '/works/Langbard/Правительство.jpg'
+          img: '/assets/works/Langbard/Правительство.jpg'
         }
       ]
     },
@@ -353,21 +353,21 @@ export class ArchitectsData {
           width: 53.898,
           length: 27.56,
           date: '1754—1770',
-          img: '/works/Fontana/Винницкий.jpg'
+          img: '/assets/works/Fontana/Винницкий.jpg'
         },
         {
           title: 'worktitle2',
           width: 53.898,
           length: 27.551,
           date: '1758—1760',
-          img: '/works/Fontana/сангушко.jpg'
+          img: '/assets/works/Fontana/сангушко.jpg'
         },
         {
           title: 'worktitle3',
           width: 53.898,
           length: 27.551,
           date: '1764 - 1774',
-          img: '/works/Fontana/Синагога.jpg'
+          img: '/assets/works/Fontana/Синагога.jpg'
         }
       ]
     }
