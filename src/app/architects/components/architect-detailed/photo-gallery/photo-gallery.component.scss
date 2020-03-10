@@ -1,12 +1,11 @@
-::ng-deep {
-  .photo_gallery {
-    max-width: 600px;
-    max-height: 400px;
-    margin: 0 auto;
-  }
-
-  img {
-    height: 400px;
-  }
-
+.photo_gallery {
+  max-width: 600px;
+  max-height: 400px;
+  margin: 0 auto;
 }
+
+.author_work_image {
+  width: 600px;
+  height: 400px;
+}
+

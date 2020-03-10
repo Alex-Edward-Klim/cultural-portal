@@ -1,7 +1,7 @@
 <div class="photo_gallery">
   <mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'">
     <mdb-carousel-item *ngFor="let work of author.work">
-      <img class="d-block w-100" [src]='work.img' alt="Author work">
+      <img class="d-block w-100" [src]='work.img' alt="Author work" class="author_work_image">
     </mdb-carousel-item>
   </mdb-carousel>
 </div>
