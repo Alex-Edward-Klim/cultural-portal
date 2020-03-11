@@ -7,13 +7,14 @@ import {AboutComponent} from './components/architect-detailed/about/about.compon
 import {ListOfArchitectsComponent} from './components/list-of-architects/list-of-architects.component';
 import {ArchitectDetailedComponent} from './components/architect-detailed/architect-detailed.component';
 import {ColoredDirective} from './directives/colored.directive';
-import {BiographyComponent} from './components/architect-detailed/biography/biography.component';
 import {PhotoVideoMapComponent} from './components/architect-detailed/photo-video-map/photo-video-map.component';
 import {SearchByPipe} from '../shared/pipes/search-by.pipe';
 import {FormsModule} from '@angular/forms';
 import {RouterModule} from '@angular/router';
 import {PhotoGalleryComponent} from './components/architect-detailed/photo-gallery/photo-gallery.component';
 import {CarouselModule} from 'angular-bootstrap-md';
+import {AnimateOnScrollModule} from 'ng2-animate-on-scroll';
+import { TimelineComponent } from './components/architect-detailed/timeline/timeline.component';
 
 @NgModule({
   declarations: [
@@ -21,10 +22,10 @@ import {CarouselModule} from 'angular-bootstrap-md';
     ArchitectDetailedComponent,
     AboutComponent,
     ColoredDirective,
-    BiographyComponent,
     PhotoVideoMapComponent,
     PhotoGalleryComponent,
     SearchByPipe,
+    TimelineComponent,
   ],
   imports: [
     CommonModule,
@@ -33,6 +34,7 @@ import {CarouselModule} from 'angular-bootstrap-md';
     FormsModule,
     RouterModule,
     CarouselModule,
+    AnimateOnScrollModule,
   ],
   exports: [
     SearchByPipe,

@@ -12,6 +12,7 @@ import {WorklogModule} from './worklog/worklog.module';
 import {StyleguideModule} from './styleguide/styleguide.module';
 import {ArchitectsData} from '../locales/architects-data';
 import {MDBBootstrapModule} from 'angular-bootstrap-md';
+import {AnimateOnScrollModule} from 'ng2-animate-on-scroll';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import {MDBBootstrapModule} from 'angular-bootstrap-md';
     WorklogModule,
     StyleguideModule,
     MatInputModule,
-    MDBBootstrapModule.forRoot()
+    MDBBootstrapModule.forRoot(),
+    AnimateOnScrollModule.forRoot()
   ],
   providers: [
     ArchitectsData
