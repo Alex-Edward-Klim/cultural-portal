@@ -1,12 +1,14 @@
 <header class="header">
   <h1>{{ 'pageLinks.h1' | translate }}</h1>
-  <nav><ul>
-    <li *ngFor="let item of navigator">
-      <a [routerLink]=" item.routing "
-        routerLinkActive="active"
-        [routerLinkActiveOptions]="{exact: true}">{{ item.title | translate }}
-      </a>
-    </li>
-    <li><app-language></app-language></li>
-  </ul></nav>
+  <nav>
+    <ul>
+      <li *ngFor="let item of navigator">
+        <a [routerLink]=" item.routing "
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{exact: true}">{{ item.title | translate }}
+        </a>
+      </li>
+    </ul>
+    <app-language></app-language>
+</nav>
 </header>
