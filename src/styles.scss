@@ -21,6 +21,9 @@ ul {
 }
 a {
   color: inherit;
+  &:hover {
+    color: black;
+  }
 }
 * {
   box-sizing: border-box;

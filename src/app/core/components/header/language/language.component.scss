@@ -10,8 +10,9 @@ label {
 
 mat-form-field {
     position: absolute;
-    top: -20px;
+    top: -10px;
     border: none;
+    width: 0;
 }
 
 mat-select {
@@ -20,4 +21,18 @@ mat-select {
     top: 12px;
     left: 10px;
     width: 0;
+}
+
+@media (max-width: 820px) {
+    label {
+        font-size: 15px;
+    }
+
+    mat-form-field {
+        top: -7px;
+    }
+
+    mat-select {
+        top: 8px;
+    }
 }
