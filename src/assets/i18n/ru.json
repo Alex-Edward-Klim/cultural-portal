@@ -171,12 +171,14 @@
     "time1": "time1"
   },
   "min-scope": {
+    "title": "Минимальный функционал",
     "item1": "Main page + page with a list of authors + author's page (only pages with content without widgets) RU",
     "item2": "Page with team members + page with worklog",
     "item3": "Page with list of authors contains search widget",
     "item4": "Portal has two languages"
   },
   "normal-scope": {
+    "title": "Базовый функционал",
     "item1": "Portal has page with styleguide RU",
     "item2": "Mobile version is okey",
     "item3": "Ipad/tablet version is okey",
@@ -189,6 +191,7 @@
     "item10": "Portal has third language"
   },
   "extra-scope": {
+    "title": "Дополнительный функционал",
     "item1": "Confidence of the project presentation RU",
     "item2": "Project is made using scully",
     "item3": "Contentful / netlify cms / other cms is used for content management",
@@ -206,6 +209,6 @@
     "difficulty2-author": "Павел Лесковец",
     "difficulty3": "Некоторые вещи из дополнительного функционала. Например, CMS и Scully показались довольно непростыми. Пока разберёшься и поймёшь, как они работают, это может занять много сил и времени.",
     "difficulty3-author": "Владимир Драчук",
-    "total": "Total"
+    "total": "Общее количество"
   }
 }

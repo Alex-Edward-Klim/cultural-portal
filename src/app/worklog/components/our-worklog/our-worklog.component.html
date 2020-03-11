@@ -34,7 +34,7 @@
   </div>
 </div>
 <div class="self-evaluation-container">
-  <h3>{{'worklog.title' | translate}}</h3>
+  <h3 class="self-evaluation-header">{{'worklog.title' | translate}}</h3>
   <div class="min-scope">
     <div class="total">
       {{'min-scope.title' | translate}}: {{minScopeActual}}/{{minScopeTotal}}
@@ -44,7 +44,7 @@
                   (change)="item.completed = !item.completed;
                   onMinScopeChange()"
     >
-      <strong>{{item.value}}</strong>
+      <strong>+{{item.value}}</strong>
       {{item.text | translate}}
     </mat-checkbox>
   </div>
@@ -57,7 +57,7 @@
                   (change)="item.completed = !item.completed;
                   onNormalScopeChange()"
     >
-      <strong>{{item.value}}</strong>
+      <strong>+{{item.value}}</strong>
       {{item.text | translate}}
     </mat-checkbox>
   </div>
@@ -70,7 +70,7 @@
                   (change)="item.completed = !item.completed;
                   onExtraScopeChange()"
     >
-      <strong>{{item.value}}</strong>
+      <strong>+{{item.value}}</strong>
       {{item.text | translate}}
     </mat-checkbox>
   </div>

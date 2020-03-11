@@ -171,12 +171,14 @@
     "time1": "time1"
   },
   "min-scope": {
+    "title": "Мінімальны функцыянал",
     "item1": "Main page + page with a list of authors + author's page (only pages with content without widgets) BY",
     "item2": "Page with team members + page with worklog",
     "item3": "Page with list of authors contains search widget",
     "item4": "Portal has two languages"
   },
   "normal-scope": {
+    "title": "Базавы функцыянал",
     "item1": "Portal has page with styleguide BY",
     "item2": "Mobile version is okey",
     "item3": "Ipad/tablet version is okey",
@@ -189,6 +191,7 @@
     "item10": "Portal has third language"
   },
   "extra-scope": {
+    "title": "Дадатковы функцыянал",
     "item1": "Confidence of the project presentation BY",
     "item2": "Project is made using scully",
     "item3": "Contentful / netlify cms / other cms is used for content management",
@@ -198,7 +201,7 @@
   },
   "worklog": {
     "header": "Дзённік распрацоўкі",
-    "title": "Самооценка",
+    "title": "Самаацэнка",
     "worklog-difficulties": "Што было самым цяжкім у распрацоўцы праекта?",
     "difficulty1": "Адназначна дызайн. Як распрацаваць тэхнічную частку прыкладання даволі зразумела. А вось дызайн - чыста творчая задача. У нашым праекце мы не выкарыстоўвалі ніякіх шаблонаў і малявалі усё самастойна.",
     "difficulty1-author": "Аляксей Клімаўскай",
@@ -206,6 +209,6 @@
     "difficulty2-author": "Павел Лескавец",
     "difficulty3": "Некаторыя рэчы з дадатковага функцыяналу. Напрыклад, CMS і Scully здаліся даволі няпростымі. Пакуль разбярэшся і зразумееш, як яны працуюць, гэта можа заняць шмат сіл і часу.",
     "difficulty3-author": "Уладзімір Драчук",
-    "total": "Total"
+    "total": "Агульная колькасьць"
   }
 }

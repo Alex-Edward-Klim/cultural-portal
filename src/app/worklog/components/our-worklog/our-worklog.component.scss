@@ -34,7 +34,6 @@ th {
   margin-bottom: 3rem;
   text-align: center;
 }
-
 .difficulties {
   width: 75%;
   margin: 0 auto;
@@ -49,14 +48,19 @@ th {
   width: 85%;
   margin: 1rem auto;
 }
-h3 {
-  margin-top: 2rem;
-  font-size: 1.5rem;
-  text-transform: uppercase;
+.self-evaluation-header {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: center;
 }
 .total {
+  align-self: flex-start;
   margin-bottom: 1rem;
+  padding: 0.4rem;
   font-size: 1.2rem;
+  border-bottom: 5px solid #D29F9F;
 }
 .min-scope, .normal-scope, .extra-scope {
   display: flex;
