@@ -15,6 +15,7 @@ import {PhotoGalleryComponent} from './components/architect-detailed/photo-galle
 import {CarouselModule} from 'angular-bootstrap-md';
 import {AnimateOnScrollModule} from 'ng2-animate-on-scroll';
 import { TimelineComponent } from './components/architect-detailed/timeline/timeline.component';
+import { VideoComponent } from './components/architect-detailed/video/video.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { TimelineComponent } from './components/architect-detailed/timeline/time
     PhotoGalleryComponent,
     SearchByPipe,
     TimelineComponent,
+    VideoComponent,
   ],
   imports: [
     CommonModule,
