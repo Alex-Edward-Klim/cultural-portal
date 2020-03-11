@@ -1,4 +1,4 @@
-<h2>{{'pageLinks.workLog' | translate}}</h2>
+<h2>{{'worklog.header' | translate}}</h2>
 <div class="accordion-wrapper">
   <mat-accordion multi="true">
     <mat-expansion-panel *ngFor="let member of team">
@@ -9,11 +9,11 @@
       </mat-expansion-panel-header>
       <table mat-table [dataSource]="member.features" class="mat-elevation-z8">
         <ng-container matColumnDef="feature">
-          <th mat-header-cell *matHeaderCellDef> Feature </th>
+          <th mat-header-cell *matHeaderCellDef>{{'worklog.feature' | translate}}</th>
           <td mat-cell *matCellDef="let element"> {{element.feature | translate}} </td>
         </ng-container>
         <ng-container matColumnDef="time">
-          <th mat-header-cell *matHeaderCellDef> Time Spent </th>
+          <th mat-header-cell *matHeaderCellDef>{{'worklog.time' | translate}}</th>
           <td mat-cell *matCellDef="let element"> {{element.time | translate}} </td>
         </ng-container>
         <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
@@ -23,7 +23,7 @@
   </mat-accordion>
 </div>
 <div class="difficulties-wrapper">
-  <h3>{{'worklog.worklog-difficulties' | translate}}</h3>
+  <h3 class="difficulties-header">{{'worklog.worklog-difficulties' | translate}}</h3>
   <div class="difficulties">
     <blockquote>{{'worklog.difficulty1' | translate}}</blockquote>
     <cite class="author">{{'worklog.difficulty1-author' | translate}}</cite>
@@ -34,7 +34,7 @@
   </div>
 </div>
 <div class="self-evaluation-container">
-  <h3>{{'worklog.title' | translate}}</h3>
+  <h3 class="self-evaluation-header">{{'worklog.title' | translate}}</h3>
   <div class="min-scope">
     <div class="total">
       {{'min-scope.title' | translate}}: {{minScopeActual}}/{{minScopeTotal}}
@@ -44,7 +44,7 @@
                   (change)="item.completed = !item.completed;
                   onMinScopeChange()"
     >
-      <strong>{{item.value}}</strong>
+      <strong>+{{item.value}}</strong>
       {{item.text | translate}}
     </mat-checkbox>
   </div>
@@ -57,7 +57,7 @@
                   (change)="item.completed = !item.completed;
                   onNormalScopeChange()"
     >
-      <strong>{{item.value}}</strong>
+      <strong>+{{item.value}}</strong>
       {{item.text | translate}}
     </mat-checkbox>
   </div>
@@ -70,7 +70,7 @@
                   (change)="item.completed = !item.completed;
                   onExtraScopeChange()"
     >
-      <strong>{{item.value}}</strong>
+      <strong>+{{item.value}}</strong>
       {{item.text | translate}}
     </mat-checkbox>
   </div>

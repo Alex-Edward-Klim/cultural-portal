@@ -1,0 +1,17 @@
+<div class="container">
+<h4 class="timeline_title">{{'pageLinks.Timeline' | translate}}</h4>
+
+  <section class="timeline">
+    <div class="container">
+      <div class="timeline-item" *ngFor="let card of author.timelineData; let i = index">
+        <div class="animated" animateOnScroll [animationName]="setAnimation(i)">
+          <div class="timeline-img"></div>
+          <div class="timeline-content">
+            <h2>{{card.date}}</h2>
+            <p>{{author.path + '.' + card.text | translate}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

@@ -1,0 +1,19 @@
+@import 'variables.scss';
+
+h4 {
+  color: $black;
+  font-size: 30px;
+  text-align: center;
+  margin: 50px 0 20px 0;
+}
+
+.video_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 100px 0;
+  margin: 0 auto;
+}

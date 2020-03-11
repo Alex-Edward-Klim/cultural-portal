@@ -26,7 +26,7 @@
     "Main-content-10": "The architecture of the <span> of the second half of the 19th - beginning of the 20th centuries. </span> was a turning point in the history of architecture of Belarus. It is characterized by fundamental changes in construction equipment, the struggle and the change of a number of artistic styles.",
     "Main-content-11": "<span> Modern </span> architecture of Belarus relies heavily on architectural and artistic developments of past centuries, a variety of styles and directions.",
     "Timeline": "Time lines",
-    "Watch-video": "Watch the video",
+    "Watch-video": "Video",
     "Important-works": "Important work of the architect",
     "Building-name": "Name of the object",
     "Built date": "Creation date",
@@ -136,21 +136,27 @@
     "time1": "Time1"
   },
   "julia": {
-    "name": "Julia",
+    "name": "Yuliya Takmakova",
     "feature": "Feature",
     "time": "Time",
     "feature1": "Feature1",
     "time1": "Time1"
   },
   "alexKlim": {
-    "name": "Alex Klim",
-    "feature": "Feature",
-    "time": "Time",
-    "feature1": "Feature1",
-    "time1": "Time"
+    "name": "Alexey Klimovskoy",
+    "feature": "basic project structure, modules, routing",
+    "time": "3h",
+    "feature1": "complex animations implementation, intro page",
+    "time1": "4h",
+    "feature2": "text writing and translation",
+    "time2": "2h",
+    "feature3": "main module, navigation and routing, 404 page",
+    "time3": "1h",
+    "feature4": "application testing and bug fixing",
+    "time4": "2h"
   },
   "pavel": {
-    "name": "Pavel Leskovets",
+    "name": "Pavel Leskavets",
     "feature": "Feature",
     "time": "time",
     "feature1": "Feature1",
@@ -164,7 +170,7 @@
     "time1": "time1"
   },
   "alex": {
-    "name": "Alex Klymenko",
+    "name": "Oleksandr Klymenko",
     "feature": "Feature",
     "time": "time",
     "feature1": "Feature1",
@@ -200,14 +206,17 @@
     "item6": "Storybook/angularplayground/compodoc/other angulaer styleguide/documentation tool usage for the page with stylesq"
   },
   "worklog": {
-    "title": "Self-esteem",
-    "worklog-difficulties": "What was the most difficult to handle with?",
-    "difficulty1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quidem, quo quod reiciendis rem sapiente ut! Consequatur ea ratione voluptates.",
-    "difficulty1-author": "Alex Klimovskiy",
-    "difficulty2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quidem, quo quod reiciendis rem sapiente ut! Consequatur ea ratione voluptates.",
-    "difficulty2-author": "Alex Klimovskiy",
-    "difficulty3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quidem, quo quod reiciendis rem sapiente ut! Consequatur ea ratione voluptates.",
-    "difficulty3-author": "Alex Klimovskiy",
+    "header": "Worklog",
+    "title": "Self-evaluation",
+    "feature": "Feature",
+    "time": "Time spent",
+    "worklog-difficulties": "What are the main challenges faced during the application development process?",
+    "difficulty1": "Definitely the design. Technical part of the application development is a pretty clear thing. But the application design is all about creativity. We didn’t use any template and we did all the drawings manually ourselves.",
+    "difficulty1-author": "Alexey Klimovskoy",
+    "difficulty2": "Collecting and processing data about the architects. It can seem pretty strange, but gathering all the information piece-by-piece appeared to be a not quite simple task.",
+    "difficulty2-author": "Pavel Leskavets",
+    "difficulty3": "Some extra scope features. For example, CMS and Scully appeared to be not quite simple things. Understanding the mechanism of its functionality can take lots of time and effort.",
+    "difficulty3-author": "Vladimir Drachuk",
     "total": "Total"
   }
 }
