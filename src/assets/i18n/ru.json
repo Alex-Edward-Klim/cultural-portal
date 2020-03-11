@@ -129,42 +129,48 @@
     "worktitle3": "Дом Советов"
   },
   "dimlbc": {
-    "name": "Dmitri Lobachevski RU",
+    "name": "Дмитрий Лобачевский",
     "feature": "FeatureRU",
     "time": "TimeRU",
     "feature1": "Feature1",
     "time1": "Time1RU"
   },
   "julia": {
-    "name": "Julia",
+    "name": "Yuliya Takmakova",
     "feature": "FeatureRU",
     "time": "Time",
     "feature1": "Feature1RU",
     "time1": "Time1"
   },
   "alexKlim": {
-    "name": "Alex KlimRU",
-    "feature": "FeatureRU",
-    "time": "Time",
-    "feature1": "Feature1RU",
-    "time1": "Time"
+    "name": "Alexey Klimovskoy",
+    "feature": "базовая структура проекта, модули, роутинг",
+    "time": "3ч",
+    "feature1": "реализация сложных анимаций, страница intro",
+    "time1": "4ч",
+    "feature2": "составление текста и перевод на иностранные языки",
+    "time2": "2ч",
+    "feature3": "модуль main, работа с навигацией, страница 404",
+    "time3": "1ч",
+    "feature4": "тестирование приложения и исправление ошибок",
+    "time4": "2ч"
   },
   "pavel": {
-    "name": "Pavel LeskovetsRU",
+    "name": "Pavel Leskavets",
     "feature": "Feature",
     "time": "time",
     "feature1": "Feature1RU",
     "time1": "time1"
   },
   "vladimir": {
-    "name": "Vladimir DrachukRU",
+    "name": "Vladimir Drachuk",
     "feature": "Feature",
     "time": "time",
     "feature1": "Feature1RU",
     "time1": "time1"
   },
   "alex": {
-    "name": "Alex KlymenkoRU",
+    "name": "Oleksandr Klymenko",
     "feature": "Feature",
     "time": "time",
     "feature1": "Feature1RU",
@@ -202,6 +208,8 @@
   "worklog": {
     "header": "Дневник разработки",
     "title": "Самооценка",
+    "feature": "Функционал",
+    "time": "Время работы",
     "worklog-difficulties": "Что было самым трудным в разработке проекта?",
     "difficulty1": "Однозначно дизайн. Как разработать техническую часть приложения довольно понятно. А вот дизайн – чисто творческая задача. В нашем проекте мы не использовали никаких шаблонов и рисовали всё самостоятельно.",
     "difficulty1-author": "Алексей Климовской",

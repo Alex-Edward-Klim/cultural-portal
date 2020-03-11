@@ -136,35 +136,41 @@
     "time1": "Time1"
   },
   "julia": {
-    "name": "Julia BY",
+    "name": "Yuliya Takmakova",
     "feature": "Feature BY",
     "time": "Time",
     "feature1": "Feature1 BY",
     "time1": "Time1"
   },
   "alexKlim": {
-    "name": "Alex Klim BY",
-    "feature": "Feature",
-    "time": "Time",
-    "feature1": "Feature1 BY",
-    "time1": "Time"
+    "name": "Alexey Klimovskoy",
+    "feature": "базавая структура праекта, модулі, роўтынг",
+    "time": "3ч",
+    "feature1": "рэалізацыя складаных анімацый, старонка intro",
+    "time1": "4ч",
+    "feature2": "складанне тэксту і пераклад на замежныя мовы",
+    "time2": "2ч",
+    "feature3":"модуль main, праца з навігацыяй, старонка 404",
+    "time3": "1ч",
+    "feature4": "тэставанне прыкладання і выпраўленне памылак",
+    "time4": "2ч"
   },
   "pavel": {
-    "name": "Pavel Leskovets BY",
+    "name": "Pavel Leskavets",
     "feature": "Feature",
     "time": "time BY",
     "feature1": "Feature1",
     "time1": "time1"
   },
   "vladimir": {
-    "name": "Vladimir Drachuk BY",
+    "name": "Vladimir Drachuk",
     "feature": "Feature",
     "time": "time BY",
     "feature1": "Feature1",
     "time1": "time1"
   },
   "alex": {
-    "name": "Alex Klymenko BY",
+    "name": "Oleksandr Klymenko",
     "feature": "Feature",
     "time": "time BY",
     "feature1": "Feature1",
@@ -202,6 +208,8 @@
   "worklog": {
     "header": "Дзённік распрацоўкі",
     "title": "Самаацэнка",
+    "feature": "Функцыянал",
+    "time": "Час працы",
     "worklog-difficulties": "Што было самым цяжкім у распрацоўцы праекта?",
     "difficulty1": "Адназначна дызайн. Як распрацаваць тэхнічную частку прыкладання даволі зразумела. А вось дызайн - чыста творчая задача. У нашым праекце мы не выкарыстоўвалі ніякіх шаблонаў і малявалі усё самастойна.",
     "difficulty1-author": "Аляксей Клімаўскай",

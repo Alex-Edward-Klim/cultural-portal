@@ -136,21 +136,27 @@
     "time1": "Time1"
   },
   "julia": {
-    "name": "Julia",
+    "name": "Yuliya Takmakova",
     "feature": "Feature",
     "time": "Time",
     "feature1": "Feature1",
     "time1": "Time1"
   },
   "alexKlim": {
-    "name": "Alex Klim",
-    "feature": "Feature",
-    "time": "Time",
-    "feature1": "Feature1",
-    "time1": "Time"
+    "name": "Alexey Klimovskoy",
+    "feature": "basic project structure, modules, routing",
+    "time": "3h",
+    "feature1": "complex animations implementation, intro page",
+    "time1": "4h",
+    "feature2": "text writing and translation",
+    "time2": "2h",
+    "feature3": "main module, navigation and routing, 404 page",
+    "time3": "1h",
+    "feature4": "application testing and bug fixing",
+    "time4": "2h"
   },
   "pavel": {
-    "name": "Pavel Leskovets",
+    "name": "Pavel Leskavets",
     "feature": "Feature",
     "time": "time",
     "feature1": "Feature1",
@@ -164,7 +170,7 @@
     "time1": "time1"
   },
   "alex": {
-    "name": "Alex Klymenko",
+    "name": "Oleksandr Klymenko",
     "feature": "Feature",
     "time": "time",
     "feature1": "Feature1",
@@ -201,7 +207,9 @@
   },
   "worklog": {
     "header": "Worklog",
-    "title": "Self-esteem",
+    "title": "Self-evaluation",
+    "feature": "Feature",
+    "time": "Time spent",
     "worklog-difficulties": "What are the main challenges faced during the application development process?",
     "difficulty1": "Definitely the design. Technical part of the application development is a pretty clear thing. But the application design is all about creativity. We didn’t use any template and we did all the drawings manually ourselves.",
     "difficulty1-author": "Alexey Klimovskoy",

@@ -28,7 +28,10 @@ const alexKlim: TeamMember = {
   name: 'alexKlim.name',
   features: [
     { feature: 'alexKlim.feature', time: 'alexKlim.time' },
-    { feature: 'alexKlim.feature1', time: 'alexKlim.time1' }
+    { feature: 'alexKlim.feature1', time: 'alexKlim.time1' },
+    { feature: 'alexKlim.feature2', time: 'alexKlim.time2' },
+    { feature: 'alexKlim.feature3', time: 'alexKlim.time3' },
+    { feature: 'alexKlim.feature4', time: 'alexKlim.time4' }
   ]
 };
 
