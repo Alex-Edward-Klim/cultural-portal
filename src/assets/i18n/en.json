@@ -201,13 +201,13 @@
   },
   "worklog": {
     "title": "Self-esteem",
-    "worklog-difficulties": "What was the most difficult to handle with?",
-    "difficulty1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quidem, quo quod reiciendis rem sapiente ut! Consequatur ea ratione voluptates.",
-    "difficulty1-author": "Alex Klimovskiy",
-    "difficulty2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quidem, quo quod reiciendis rem sapiente ut! Consequatur ea ratione voluptates.",
-    "difficulty2-author": "Alex Klimovskiy",
-    "difficulty3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quidem, quo quod reiciendis rem sapiente ut! Consequatur ea ratione voluptates.",
-    "difficulty3-author": "Alex Klimovskiy",
+    "worklog-difficulties": "What are the main challenges faced during the application development process?",
+    "difficulty1": "Definitely the design. Technical part of the application development is a pretty clear thing. But the application design is all about creativity. We didn’t use any template and we did all the drawings manually ourselves.",
+    "difficulty1-author": "Alexey Klimovskoy",
+    "difficulty2": "Collecting and processing data about the architects. It can seem pretty strange, but gathering all the information piece-by-piece appeared to be a not quite simple task.",
+    "difficulty2-author": "Pavel Leskavets",
+    "difficulty3": "Some extra scope features. For example, CMS and Scully appeared to be not quite simple things. Understanding the mechanism of its functionality can take lots of time and effort.",
+    "difficulty3-author": "Vladimir Drachuk",
     "total": "Total"
   }
 }

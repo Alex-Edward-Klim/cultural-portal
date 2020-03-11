@@ -198,13 +198,13 @@
   },
   "worklog": {
     "title": "Самооценка",
-    "worklog-difficulties": "Што было самае цяжкае пры працы над праектам?)))",
-    "difficulty1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quidem, quo quod reiciendis rem sapiente ut! Consequatur ea ratione voluptates.",
-    "difficulty1-author": "Alex Klimovskiy",
-    "difficulty2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quidem, quo quod reiciendis rem sapiente ut! Consequatur ea ratione voluptates.",
-    "difficulty2-author": "Alex Klimovskiy",
-    "difficulty3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quidem, quo quod reiciendis rem sapiente ut! Consequatur ea ratione voluptates.",
-    "difficulty3-author": "Alex Klimovskiy",
+    "worklog-difficulties": "Што было самым цяжкім у распрацоўцы праекта?",
+    "difficulty1": "Адназначна дызайн. Як распрацаваць тэхнічную частку прыкладання даволі зразумела. А вось дызайн - чыста творчая задача. У нашым праекце мы не выкарыстоўвалі ніякіх шаблонаў і малявалі усё самастойна.",
+    "difficulty1-author": "Аляксей Клімаўскай",
+    "difficulty2": "Збор і апрацоўка інфармацыі аб архітэктараў. Як ні дзіўна, але збіраць усю інфармацыю па крупінках аказалася даволі няпростай задачай.",
+    "difficulty2-author": "Павел Лескавец",
+    "difficulty3": "Некаторыя рэчы з дадатковага функцыяналу. Напрыклад, CMS і Scully здаліся даволі няпростымі. Пакуль разбярэшся і зразумееш, як яны працуюць, гэта можа заняць шмат сіл і часу.",
+    "difficulty3-author": "Уладзімір Драчук",
     "total": "Total"
   }
 }

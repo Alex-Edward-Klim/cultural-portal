@@ -199,12 +199,12 @@
   "worklog": {
     "title": "Самооценка",
     "worklog-difficulties": "Что было самым трудным в разработке проекта?",
-    "difficulty1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quidem, quo quod reiciendis rem sapiente ut! Consequatur ea ratione voluptates.",
-    "difficulty1-author": "Alex Klimovskiy",
-    "difficulty2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quidem, quo quod reiciendis rem sapiente ut! Consequatur ea ratione voluptates.",
-    "difficulty2-author": "Alex Klimovskiy",
-    "difficulty3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quidem, quo quod reiciendis rem sapiente ut! Consequatur ea ratione voluptates.",
-    "difficulty3-author": "Alex Klimovskiy",
+    "difficulty1": "Однозначно дизайн. Как разработать техническую часть приложения довольно понятно. А вот дизайн – чисто творческая задача. В нашем проекте мы не использовали никаких шаблонов и рисовали всё самостоятельно.",
+    "difficulty1-author": "Алексей Климовской",
+    "difficulty2": "Сбор и обработка информации об архитекторах. Как ни странно, но собирать всю информацию по крупицам оказалось довольно непростой задачей.",
+    "difficulty2-author": "Павел Лесковец",
+    "difficulty3": "Некоторые вещи из дополнительного функционала. Например, CMS и Scully показались довольно непростыми. Пока разберёшься и поймёшь, как они работают, это может занять много сил и времени.",
+    "difficulty3-author": "Владимир Драчук",
     "total": "Total"
   }
 }
