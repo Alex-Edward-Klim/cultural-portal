@@ -2,6 +2,9 @@
   &__wrapper {
     min-height: 350px;
   }
+  &__label {
+    display: block;
+  }
   &__search {
     margin: 25px auto;
     max-width: 840px;
