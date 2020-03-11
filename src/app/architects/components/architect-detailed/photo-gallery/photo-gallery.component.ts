@@ -15,7 +15,6 @@ export class PhotoGalleryComponent implements OnInit {
 
   ngOnInit(): void {
     this.images = this.author.images;
-    console.log(this.images);
     this.conf = {
       imageOffset: '0px',
       showDeleteControl: false,
