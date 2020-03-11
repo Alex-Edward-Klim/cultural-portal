@@ -1,19 +1,236 @@
-:host {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
+// :host {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   height: 100%;
+// }
+
+// .generalWrapper {
+//   // height: 3000px;
+// }
+
+.heading {
+  position: relative;
+  height: 100vh;
+  background: url('../../../../assets/images/intro_header_background.png');
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
 }
+
+.heading-text {
+  position: absolute;
+  top: 35%;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  margin-top: -50px;
+  font-family: "Gothic";
+  font-style: normal;
+  font-weight: normal;
+  
+  text-align: center;
+  color: #000000;
+  
+  font-size: 6vw;
+}
+
+.heading-text::after {
+  content: '____________';
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%);
+  font-weight: bold;
+}
+
+.fore-pic {
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  width: 25vw;
+  height: 25vw;
+  background-image: url('../../../../assets/images/Skorina.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+
+
+
+
+
+#subheadingIntroduction {
+
+  ////////////////////////////////
+  margin-top: 4vw;
+
+  margin-left: 4vw;
+
+  font-family: "Gothic";
+  font-size: 7vw;
+  line-height: 7vw;
+  font-style: normal;
+  font-weight: normal;
+
+  color: #3E3636;
+
+}
+
+
+
+
+
+
+
+.subheadingWrapper {
+  position: relative;
+  height: 9vw;
+  width: 100%;
+  user-select: none;
+  // text-align: center;
+  margin-left: 4vw;
+
+  ///////////////////////////////////////////////////////
+  margin-bottom: 0;
+}
+
+.shield {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: inherit;
+  width: inherit;
+  z-index: 90;
+}
+
+
+.text-effect {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  filter: contrast(110%) brightness(190%);
+}
+
+.neon {
+  position: relative;
+  background: white;
+  color: transparent;
+}
+.neon::before, .neon::after {
+  content: attr(data-text);
+  color: white;
+  // filter: blur(0.02em);
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+.neon::after {
+  mix-blend-mode: difference;
+}
+
+.neon::before {
+  filter: blur(0.02em);
+}
+
+.gradient,
+.spotlight {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.gradient {
+  background: #D29F9F;
+  mix-blend-mode: multiply;
+}
+
+.spotlight {
+  animation: light 5s infinite linear;
+  background: radial-gradient(circle, white, transparent 25%) 0 0/25% 25%, radial-gradient(circle, white, black 25%) 50% 50%/12.5% 12.5%;
+  top: -100%;
+  left: -100%;
+  mix-blend-mode: color-dodge;
+}
+
+@keyframes light {
+  100% {
+    transform: translate3d(50%, 50%, 0);
+  }
+}
+.neon {
+  // font: 700 9vw "Gothic";
+  font-family: "Gothic";
+  font-size: 9vw;
+  line-height: 12vw;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  /////////////////////////////////////////
+  // color: green;
+  color: black;
+}
+.neon:focus {
+  outline: none;
+}
+
+
+
+
+
+
+
+.description {
+  margin: 4vw;
+  font-family: "Gothic";
+  font-size: 2vw;
+  line-height: 3vw;
+  font-weight: normal;
+  text-align: justify;
+  text-indent: 4em;
+  color: #3E3636;
+}
+
+
+
+
+
+
+
+
+
+
+
+.buttonWrapper {
+  text-align: center;
+  margin-bottom: 4vw;
+}
+
 .intro__btn {
-  min-width: 120px;
-  padding: 9px 25px 8px;
+  display: inline-block;
+  margin: auto;
+  // min-width: 120px;
+  // height: 2vw;
+  // width: 4vw;
+  // padding: 9px 25px 8px;
+  padding: 1vw;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 14px;
-  color: #fff;
-  border-radius: 10px;
-  background: #1aaa55;
+  // font-family: Roboto, 'Helvetica Neue', sans-serif;
+  // font-size: 14px;
+  font-size: 2vw;
+  // color: #fff;
+  color: #3E3636;
+  border: 2px solid #3E3636;
+  border-radius: 5px;
+  background: #D29F9F;
   &:hover, &:focus {
     filter: brightness(120%);
   }

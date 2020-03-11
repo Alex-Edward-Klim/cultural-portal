@@ -20,6 +20,7 @@ import { NavigationService } from './services/navigation.service';
 import { LanguageComponent } from './components/header/language/language.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { TeamModule } from '../team/team.module';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -53,7 +54,8 @@ export function HttpLoaderFactory(http: HttpClient) {
         useFactory: HttpLoaderFactory,
         deps: [HttpClient]
       }
-    })
+    }),
+    TeamModule
   ],
   providers: [NavigationService]
 })
