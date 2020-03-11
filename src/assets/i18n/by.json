@@ -197,6 +197,7 @@
     "item6": "Storybook/angularplayground/compodoc/other angulaer styleguide/documentation tool usage for the page with stylesq"
   },
   "worklog": {
+    "header": "Дзённік распрацоўкі",
     "title": "Самооценка",
     "worklog-difficulties": "Што было самым цяжкім у распрацоўцы праекта?",
     "difficulty1": "Адназначна дызайн. Як распрацаваць тэхнічную частку прыкладання даволі зразумела. А вось дызайн - чыста творчая задача. У нашым праекце мы не выкарыстоўвалі ніякіх шаблонаў і малявалі усё самастойна.",

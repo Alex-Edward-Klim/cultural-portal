@@ -1,20 +1,37 @@
 h2 {
-  margin-top: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
   text-align: center;
-  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: normal;
+  color: #3E3636;
 }
 .accordion-wrapper {
   width: 90%;
   margin: 2rem auto;
 }
+
+mat-expansion-panel {
+  background-color: #D29F9F;
+}
+mat-panel-title {
+  font-size: 1.2rem;
+  color: #3E3636;
+}
 table {
   width: 100%;
 }
+th {
+  background-color: #F9E7D3;
+}
 .difficulties-wrapper {
+  margin-top: 3rem;
   padding: 2rem;
   background-color: #F9E7D3;
 }
-h3 {
+.difficulties-header {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
   text-align: center;
 }
 
@@ -23,10 +40,10 @@ h3 {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 .author {
   align-self: flex-end;
+  margin-bottom: 3rem;
 }
 .self-evaluation-container {
   width: 85%;

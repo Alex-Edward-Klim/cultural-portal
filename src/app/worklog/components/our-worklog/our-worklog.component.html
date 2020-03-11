@@ -1,4 +1,4 @@
-<h2>{{'pageLinks.workLog' | translate}}</h2>
+<h2>{{'worklog.header' | translate}}</h2>
 <div class="accordion-wrapper">
   <mat-accordion multi="true">
     <mat-expansion-panel *ngFor="let member of team">
@@ -23,7 +23,7 @@
   </mat-accordion>
 </div>
 <div class="difficulties-wrapper">
-  <h3>{{'worklog.worklog-difficulties' | translate}}</h3>
+  <h3 class="difficulties-header">{{'worklog.worklog-difficulties' | translate}}</h3>
   <div class="difficulties">
     <blockquote>{{'worklog.difficulty1' | translate}}</blockquote>
     <cite class="author">{{'worklog.difficulty1-author' | translate}}</cite>

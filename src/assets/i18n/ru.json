@@ -197,6 +197,7 @@
     "item6": "Storybook/angularplayground/compodoc/other angulaer styleguide/documentation tool usage for the page with stylesq"
   },
   "worklog": {
+    "header": "Дневник разработки",
     "title": "Самооценка",
     "worklog-difficulties": "Что было самым трудным в разработке проекта?",
     "difficulty1": "Однозначно дизайн. Как разработать техническую часть приложения довольно понятно. А вот дизайн – чисто творческая задача. В нашем проекте мы не использовали никаких шаблонов и рисовали всё самостоятельно.",
