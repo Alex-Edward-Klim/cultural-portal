@@ -450,11 +450,11 @@ export class ArchitectsData {
     },
     {
       id: '8',
-      path: 'shabunevsky',
+      path: 'parusnikov',
       name: 'name',
       date: 'date',
-      img: 'assets/images/Shabunevsky.jpg',
-      videoId: 'a43rFmrY78c',
+      img: 'assets/images/Parusnikov.jpg',
+      videoId: 'Kzdllifv0UE',
       vita: 'vita',
       authorOfTheDay: 'false',
       lng: 'en',
@@ -463,65 +463,54 @@ export class ArchitectsData {
       birthPlace: 'birthPlace',
       timelineData: [
         {
-          date: '1892',
+          date: '1913-1918',
           text: 'timeline1'
         },
         {
-          date: '1897',
+          date: '1924',
           text: 'timeline2'
         },
         {
-          date: '1903',
+          date: '1941-1944',
           text: 'timeline3'
         },
         {
-          date: '1919',
+          date: '1944-1948',
           text: 'timeline4'
         },
         {
-          date: '1924',
+          date: '1953',
           text: 'timeline5'
-        },
-        {
-          date: '1937',
-          text: 'timeline6'
         },
       ],
       work: [
         {
           title: 'worktitle1',
-          width: 52.4333,
-          length: 31.0037,
-          date: '1898',
-          img: '/assets/works/Shabunevsky/Гимназия.jpg'
+          width: 53.8983,
+          length: 27.5543,
+          date: '1945—1947',
+          img: '/assets/works/Parusnikov/КГБ.jpg'
         },
         {
           title: 'worktitle2',
-          width: 52.4304,
-          length: 31.0110,
-          date: '1901',
-          img: '/assets/works/Shabunevsky/Орловский.jpg'
+          width: 53.9000,
+          length: 27.5588,
+          date: '1950',
+          img: '/assets/works/Parusnikov/Нацбанк.jpg'
         },
         {
           title: 'worktitle3',
-          width: 52.4269,
-          length: 31.0137,
-          date: '1910-1912',
-          img: '/assets/works/Shabunevsky/Виленский.jpg'
+          width: 53.9066,
+          length: 27.5711,
+          date: '1954',
+          img: '/assets/works/Parusnikov/Мост.jpg'
         },
         {
           title: 'worktitle4',
-          width: 52.4292,
-          length: 31.0062,
-          date: '1909',
-          img: '/assets/works/Shabunevsky/Доктор.jpg'
-        },
-        {
-          title: 'worktitle5',
-          width: 52.4155,
-          length: 31.0096,
-          date: '1915',
-          img: '/assets/works/Shabunevsky/Земская.jpg'
+          width: 57.6325,
+          length: 39.8871,
+          date: '1960',
+          img: '/assets/works/Parusnikov/Дом.jpg'
         }
       ]
     }
