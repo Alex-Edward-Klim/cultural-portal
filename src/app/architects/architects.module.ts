@@ -7,7 +7,6 @@ import {AboutComponent} from './components/architect-detailed/about/about.compon
 import {ListOfArchitectsComponent} from './components/list-of-architects/list-of-architects.component';
 import {ArchitectDetailedComponent} from './components/architect-detailed/architect-detailed.component';
 import {ColoredDirective} from './directives/colored.directive';
-import {PhotoVideoMapComponent} from './components/architect-detailed/photo-video-map/photo-video-map.component';
 import {SearchByPipe} from '../shared/pipes/search-by.pipe';
 import {FormsModule} from '@angular/forms';
 import {RouterModule} from '@angular/router';
@@ -16,6 +15,7 @@ import {CarouselModule, MDBBootstrapModule} from 'angular-bootstrap-md';
 import {AnimateOnScrollModule} from 'ng2-animate-on-scroll';
 import { TimelineComponent } from './components/architect-detailed/timeline/timeline.component';
 import { VideoComponent } from './components/architect-detailed/video/video.component';
+import { MapComponent } from './components/architect-detailed/map/map.component';
 
 @NgModule({
   declarations: [
@@ -23,11 +23,11 @@ import { VideoComponent } from './components/architect-detailed/video/video.comp
     ArchitectDetailedComponent,
     AboutComponent,
     ColoredDirective,
-    PhotoVideoMapComponent,
     PhotoGalleryComponent,
     SearchByPipe,
     TimelineComponent,
-    VideoComponent
+    VideoComponent,
+    MapComponent
   ],
   imports: [
     CommonModule,
