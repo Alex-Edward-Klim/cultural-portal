@@ -1,31 +1,35 @@
 <div class="generalWrapper">
 
   <div class="heading">
-    <p class="heading-text" #mainHeading>Архитекторы Беларуси</p>
+    <p class="heading-text" #mainHeading>{{ 'pageLinks.architectsOfBelarus' | translate }}</p>
     <div class="fore-pic"></div>
   </div>
 
 
 
-  <p id="subheadingIntroduction">Что такое</p>
+  <p id="subheadingIntroduction">{{ 'pageLinks.whatIs' | translate }}</p>
 
   <div class="subheadingWrapper">
 
     <div class="shield"></div>
 
     <div class="text-effect">
-      <h1 class="neon" data-text="Культурный Портал?" contenteditable>Культурный Портал?</h1>
+      <h1 *ngIf="localStorageReferenceObject.hasOwnProperty('lang') && localStorageReferenceObject.lang === 'ru'" class="neon" data-text="Культурный Портал?" contenteditable>Культурный Портал?</h1>
+      <h1 *ngIf="(localStorageReferenceObject.hasOwnProperty('lang') && localStorageReferenceObject.lang === 'en') || !localStorageReferenceObject.hasOwnProperty('lang')" class="neon" data-text="Culture Portal?" contenteditable>Culture Portal?</h1>
+      <!-- <h1 *ngIf="localStorageReferenceObject.hasOwnProperty('lang') && localStorageReferenceObject.lang === 'en'" class="neon" data-text="Culture Portal?" contenteditable>Culture Portal?</h1> -->
+      <h1 *ngIf="localStorageReferenceObject.hasOwnProperty('lang') && localStorageReferenceObject.lang === 'by'" class="neon" data-text="Культурны Партал?" contenteditable>Культурны Партал?</h1>
+      
       <div class="gradient"></div>
       <div class="spotlight"></div>
     </div>
 
   </div>
 
-  <p class="description">Как правило, любой портал содержит страницы по определённой теме или области знаний. Культурные порталы могут быть связаны с одним или несколькими культурными проектами. Однако, в отличие от крупных культурных порталов, которые предназначены для координации действий авторов различных статей и материала, наш культурный портал ориентирован на читателя, давая ему общий обзор темы белорусской архитектуры, и содержит обобщающую информацию о белорусских архитекторах.</p>
+  <p class="description">{{ 'pageLinks.portalInfo' | translate }}</p>
 
   
   <div class="buttonWrapper">
-    <a routerLink="/content" class="intro__btn">{{'pageLinks.enter' | translate}}</a>
+    <a routerLink="/content" class="enterPortalLink">{{'pageLinks.enter' | translate}}<i class="movingStrip"></i></a>
   </div>
 
   <app-our-team></app-our-team>

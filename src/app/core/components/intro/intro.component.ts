@@ -7,6 +7,8 @@ import { Component, OnInit, ViewChild, AfterViewInit } from '@angular/core';
 })
 export class IntroComponent implements OnInit, AfterViewInit {
 
+  public localStorageReferenceObject = localStorage;
+
   @ViewChild('mainHeading') public mainHeading;
 
   constructor() { }

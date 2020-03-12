@@ -1,6 +1,6 @@
 {
   "pageLinks": {
-    "enter": "Enter",
+    "enter": "Explore the portal",
     "home": "Home",
     "main": "Main",
     "listOfArchitects": "List of architects",
@@ -47,7 +47,10 @@
     "teamDescriptionPavelLeskavets": "The key figure of our project. The most experienced man in our team. He knew exactly what to do from the very beginning and offered smart and right solutions. He implemented the most complex tasks in the application: almost every extra scope feature and also different libraries were implemented due to Pavel’s contribution.",
     "teamDescriptionYuliyaTakmakova": "Chief designer of our project. Unlike other teams, we completely developed the design by ourselves: no templates or turnkey solutions were used, and everything was made manually. Beautiful design is the base for success of any application!",
     "teamDescriptionOleksandrKlymenko": "The most intelligent man in our team. True professional. Acts more and talks less: quickly got what he should do and asking no redundant questions got down to business. He solved all the problems by himself. Cope with the implementation of his task fast of all.",
-    "teamDescriptionDmitriLobachevski": "The most reliable man in our team. He responsibly started his work and easily implemented his part of the task by himself. Dmitri did his work so thoroughly that the module he was developing is the only one in our application that doesn’t even need to be fixed or improved."
+    "teamDescriptionDmitriLobachevski": "The most reliable man in our team. He responsibly started his work and easily implemented his part of the task by himself. Dmitri did his work so thoroughly that the module he was developing is the only one in our application that doesn’t even need to be fixed or improved.",
+    "portalInfo": "Any portal usually has pages on a certain topic or a special field. Culture portals can be dedicated to one or even more cultural projects. But nevertheless, unlike huge culture portals which are made to coordinate and manage the actions of theirs authors, who write articles and create content for the portal, our culture portal is focused on the visitor, providing an overall overview of the Belarusian architecture in general and contains summarized information about Belarusian architects.",
+    "architectsOfBelarus": "Architects Of Belarus",
+    "whatIs": "What is"
   },
   "ananich": {
     "name": "Yuri Stepanovich Ananich",
