@@ -1,12 +1,5 @@
-// :host {
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   height: 100%;
-// }
-
 // .generalWrapper {
-//   // height: 3000px;
+//   max-width: 1440px;
 // }
 
 .heading {
@@ -56,43 +49,23 @@
   z-index: 1;
 }
 
-
-
-
-
-
 #subheadingIntroduction {
-
-  ////////////////////////////////
   margin-top: 4vw;
-
   margin-left: 4vw;
-
   font-family: "Gothic";
   font-size: 4vw;
   line-height: 5vw;
   font-style: normal;
   font-weight: normal;
-
   color: #3E3636;
-
 }
-
-
-
-
-
-
 
 .subheadingWrapper {
   position: relative;
   height: 9vw;
   width: 100%;
   user-select: none;
-  // text-align: center;
   margin-left: 4vw;
-
-  ///////////////////////////////////////////////////////
   margin-bottom: 0;
 }
 
@@ -104,7 +77,6 @@
   width: inherit;
   z-index: 90;
 }
-
 
 .text-effect {
   display: inline-block;
@@ -121,7 +93,6 @@
 .neon::before, .neon::after {
   content: attr(data-text);
   color: white;
-  // filter: blur(0.02em);
   position: absolute;
   top: 0;
   left: 0;
@@ -130,7 +101,6 @@
 .neon::after {
   mix-blend-mode: difference;
 }
-
 .neon::before {
   filter: blur(0.02em);
 }
@@ -165,30 +135,20 @@
   }
 }
 .neon {
-  // font: 700 9vw "Gothic";
   font-family: "Gothic";
   font-size: 6vw;
   line-height: 7vw;
   font-weight: bold;
   text-align: center;
   margin: 0;
-  /////////////////////////////////////////
-  // color: green;
   color: black;
 }
 .neon:focus {
   outline: none;
 }
 
-
-
-
-
-
-
 .description {
   margin: 0 4vw;
-  // font-family: "Gothic";
   font-size: 2vw;
   line-height: 3vw;
   font-weight: normal;
@@ -197,55 +157,15 @@
   color: #3E3636;
 }
 
-
-
-
-
-
-
-
-
-
-
 .buttonWrapper {
   text-align: center;
   margin: 4vw;
 }
 
-.intro__btn {
-  display: inline-block;
-  margin: auto;
-  // min-width: 120px;
-  // height: 2vw;
-  // width: 4vw;
-  // padding: 9px 25px 8px;
-  padding: 1vw;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-  // font-family: Roboto, 'Helvetica Neue', sans-serif;
-  // font-size: 14px;
-  font-size: 2vw;
-  // color: #fff;
-  color: #3E3636;
-  border: 2px solid #3E3636;
-  border-radius: 5px;
-  background: #D29F9F;
-  &:hover, &:focus {
-    filter: brightness(120%);
-  }
-}
-
-// .enterButtonCustomWrapper {
-//   /* position: relative; */
-//   text-align: center;
-// }
-
 .enterPortalLink {
   display: inline-block;
   text-decoration: none;
   font-size: 2vw;
-  // font-weight: bold;
   letter-spacing: 2px;
   color: #3E3636;
   border: 2px solid #3E3636;
