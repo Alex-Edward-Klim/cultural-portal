@@ -21,7 +21,6 @@ export class VideoComponent {
     return this.authorSet;
   }
 
-
   public src: SafeResourceUrl;
 
   constructor(private sanitizer: DomSanitizer) {}
