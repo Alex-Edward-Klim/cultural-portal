@@ -8,14 +8,17 @@ import { OurTranslateService } from '../../../../shared/services/translate.servi
   styleUrls: ['./language.component.scss']
 })
 export class LanguageComponent {
-  
+
   public languageForm: FormGroup;
   public currentLang: string;
 
   constructor(private translator: OurTranslateService, private fb: FormBuilder) {
     this.initForm();
     this.currentLang = this.translator.currentLang;
-    this.languageForm.get('currentLanguage').valueChanges.subscribe(language => this.translator.setLanguage(language));
+    this.languageForm.get('currentLanguage').valueChanges.subscribe(language => {
+      this.translator.currentLang = language;
+      this.translator.setLanguage(language);
+    });
   }
 
   public initForm() {
