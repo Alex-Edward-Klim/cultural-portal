@@ -13,7 +13,7 @@ export class ArchitectsData {
       authorOfTheDay: 'false',
       lng: 'en',
       birthPlace: 'birthPlace',
-      geovidgetLink: 'mid=1DMvXxw4BPZYozlqBwvqmgzWLMr6HpzH5',
+      geovidgetLink: 'mid=1DMvXxw4BPZYozlqBwvqmgzWLMr6HpzH5&hl=en',
       searchKey: 'searchKey',
       timelineData: [
         {
@@ -87,7 +87,7 @@ export class ArchitectsData {
       lng: 'en',
       searchKey: 'searchKey',
       birthPlace: 'birthPlace',
-      geovidgetLink: 'mid=10ZwynmgbM79zAAagBDpS4fxav_vpOQfO',
+      geovidgetLink: 'mid=10ZwynmgbM79zAAagBDpS4fxav_vpOQfO&hl=en',
       timelineData: [
         {
           date: '1768',
@@ -151,7 +151,7 @@ export class ArchitectsData {
       authorOfTheDay: 'false',
       lng: 'en',
       birthPlace: 'birthPlace',
-      geovidgetLink: 'mid=1XdWwCcjN5n_7C0kFCxcq2G2r2VYV6fFO',
+      geovidgetLink: 'mid=1XdWwCcjN5n_7C0kFCxcq2G2r2VYV6fFO&hl=en',
       searchKey: 'searchKey',
       timelineData: [
         {
@@ -206,7 +206,7 @@ export class ArchitectsData {
       authorOfTheDay: 'true',
       lng: 'en',
       birthPlace: 'birthPlace',
-      geovidgetLink: 'mid=1vhu3Tx8WxYjPhjjqoz1_mbK6wuDt-yPn',
+      geovidgetLink: 'mid=1vhu3Tx8WxYjPhjjqoz1_mbK6wuDt-yPn&hl=en',
       searchKey: 'searchKey',
       timelineData: [
         {
@@ -269,7 +269,7 @@ export class ArchitectsData {
       lng: 'en',
       searchKey: 'searchKey',
       birthPlace: 'birthPlace',
-      geovidgetLink: 'mid=1azzyT0kI_WJG5h08u9p0Kt-Nv_h_FO8s',
+      geovidgetLink: 'mid=1azzyT0kI_WJG5h08u9p0Kt-Nv_h_FO8s&hl=en',
       timelineData: [
         {
           date: '1907',
@@ -326,7 +326,7 @@ export class ArchitectsData {
       vita: 'vita',
       authorOfTheDay: 'false',
       lng: 'en',
-      geovidgetLink: 'mid=1h1uJwA9rkRhJToIj-Wna3cup2YWiBSDE',
+      geovidgetLink: 'mid=1h1uJwA9rkRhJToIj-Wna3cup2YWiBSDE&hl=en',
       searchKey: 'searchKey',
       birthPlace: 'birthPlace',
       timelineData: [
@@ -381,7 +381,7 @@ export class ArchitectsData {
       vita: 'vita',
       authorOfTheDay: 'false',
       lng: 'en',
-      geovidgetLink: '-------',
+      geovidgetLink: 'mid=1ss2nwd8StdF6TlThZSXZU7yfEFYCTGKw&hl=en',
       searchKey: 'searchKey',
       birthPlace: 'birthPlace',
       timelineData: [
@@ -458,7 +458,7 @@ export class ArchitectsData {
       vita: 'vita',
       authorOfTheDay: 'false',
       lng: 'en',
-      geovidgetLink: '-------',
+      geovidgetLink: 'mid=1JQjnp6_ZKpRCdDrjjUKIqybiqkSB6sFC&hl=en',
       searchKey: 'searchKey',
       birthPlace: 'birthPlace',
       timelineData: [
