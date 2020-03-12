@@ -5,7 +5,7 @@ import { TranslateService } from '@ngx-translate/core';
   providedIn: 'root'
 })
 export class OurTranslateService {
-  
+
   private defaultLang = 'en';
   public currentLang: string = localStorage.getItem('lang') || this.defaultLang;
 
