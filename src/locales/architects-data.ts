@@ -370,6 +370,83 @@ export class ArchitectsData {
           img: '/assets/works/Fontana/Синагога.jpg'
         }
       ]
+    },
+    {
+      id: '7',
+      path: 'shabunevsky',
+      name: 'name',
+      date: 'date',
+      img: 'assets/images/Shabunevsky.jpg',
+      videoId: 'a43rFmrY78c',
+      vita: 'vita',
+      authorOfTheDay: 'false',
+      lng: 'en',
+      geovidgetLink: '-------',
+      searchKey: 'searchKey',
+      birthPlace: 'birthPlace',
+      timelineData: [
+        {
+          date: '1892',
+          text: 'timeline1'
+        },
+        {
+          date: '1897',
+          text: 'timeline2'
+        },
+        {
+          date: '1903',
+          text: 'timeline3'
+        },
+        {
+          date: '1919',
+          text: 'timeline4'
+        },
+        {
+          date: '1924',
+          text: 'timeline5'
+        },
+        {
+          date: '1937',
+          text: 'timeline6'
+        },
+      ],
+      work: [
+        {
+          title: 'worktitle1',
+          width: 52.4333,
+          length: 31.0037,
+          date: '1898',
+          img: '/assets/works/Shabunevsky/Гимназия.jpg'
+        },
+        {
+          title: 'worktitle2',
+          width: 52.4304,
+          length: 31.0110,
+          date: '1901',
+          img: '/assets/works/Shabunevsky/Орловский.jpg'
+        },
+        {
+          title: 'worktitle3',
+          width: 52.4269,
+          length: 31.0137,
+          date: '1910-1912',
+          img: '/assets/works/Shabunevsky/Виленский.jpg'
+        },
+        {
+          title: 'worktitle4',
+          width: 52.4292,
+          length: 31.0062,
+          date: '1909',
+          img: '/assets/works/Shabunevsky/Доктор.jpg'
+        },
+        {
+          title: 'worktitle5',
+          width: 52.4155,
+          length: 31.0096,
+          date: '1915',
+          img: '/assets/works/Shabunevsky/Земская.jpg'
+        }
+      ]
     }
   ];
 }

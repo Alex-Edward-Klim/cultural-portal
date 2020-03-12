@@ -15,8 +15,4 @@ export class DayAuthorComponent implements OnInit {
   ngOnInit(): void {
     this.randomArchitect = this.architectsApi.getRandom();
   }
-
-  public showDetailedPage() {
-    console.log('go to detailed page');
-  }
 }
