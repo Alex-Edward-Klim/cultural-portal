@@ -50,7 +50,17 @@
     "teamDescriptionDmitriLobachevski": "The most reliable man in our team. He responsibly started his work and easily implemented his part of the task by himself. Dmitri did his work so thoroughly that the module he was developing is the only one in our application that doesn’t even need to be fixed or improved.",
     "portalInfo": "Any portal usually has pages on a certain topic or a special field. Culture portals can be dedicated to one or even more cultural projects. But nevertheless, unlike huge culture portals which are made to coordinate and manage the actions of theirs authors, who write articles and create content for the portal, our culture portal is focused on the visitor, providing an overall overview of the Belarusian architecture in general and contains summarized information about Belarusian architects.",
     "architectsOfBelarus": "Architects Of Belarus",
-    "whatIs": "What is"
+    "whatIs": "What is",
+    "styleguideWelcome": "Welcome to the styleguide of our",
+    "styleguideCulturePortal": "Culture Portal",
+    "styleguideDescription": "Here you can find all the styles used in our project",
+    "styleguidePrimaryColor": "Primary Color",
+    "styleguideSecondaryColor": "Secondary Color",
+    "styleguidePrimaryText": "Primary Text",
+    "styleguideSecondaryText": "Secondary Text",
+    "styleguideHeading": "Heading",
+    "styleguideButtonColored": "Colored Button",
+    "styleguideButtonOutlined": "Outlined Button"
   },
   "ananich": {
     "name": "Yuri Stepanovich Ananich",
