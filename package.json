@@ -7,7 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "scully": "scully",
+    "scully:serve": "scully serve"
   },
   "private": true,
   "dependencies": {
@@ -24,6 +26,9 @@
     "@fortawesome/fontawesome-free": "^5.12.1",
     "@ngx-translate/core": "^12.1.2",
     "@ngx-translate/http-loader": "^4.0.0",
+    "@scullyio/init": "0.0.23",
+    "@scullyio/ng-lib": "latest",
+    "@scullyio/scully": "latest",
     "@types/chart.js": "^2.9.15",
     "angular-bootstrap-md": "^9.0.0",
     "animate.css": "^3.7.2",

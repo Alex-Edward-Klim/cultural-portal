@@ -18,7 +18,7 @@ h4 {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 100px 0;
+  padding-bottom: 100px;
   margin: 0 auto;
 }
 
@@ -44,4 +44,34 @@ h4 {
 
 .modal-body iframe {
   padding: 10px;
+}
+
+@media (max-width: 1280px) {
+  .video_container {
+    padding: 100px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  h4 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  h4 {
+    font-size: 17px;
+  }
+  .video_container {
+    button{
+      font-size: 11px;
+    }
+  }
+  .modal-content, .modal-header, iframe {
+    width: 300px;
+  }
+  .modal-content {
+    right: 0;
+    margin: 0 auto;
+  }
 }
