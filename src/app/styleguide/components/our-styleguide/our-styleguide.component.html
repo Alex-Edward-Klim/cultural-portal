@@ -4,8 +4,8 @@
 
 <!-- Welcome -->
 <div class="welcomeHeading">
-  <h1>Welcome to the styleguide of our <a routerLink="/">Culture Portal</a></h1>
-  <p>Here you can find all the styles used in our project</p>
+  <h1>{{ 'pageLinks.styleguideWelcome' | translate }} <a routerLink="/">{{ 'pageLinks.styleguideCulturePortal' | translate }}</a></h1>
+  <p>{{ 'pageLinks.styleguideDescription' | translate }}</p>
 </div>
 
 
@@ -16,28 +16,28 @@
     <div class="color-box" style="background-color: #D29F9F">
         <span class="text">#d29f9f</span>
     </div>
-    <h2>Primary</h2>
+    <h2>{{ 'pageLinks.styleguidePrimaryColor' | translate }}</h2>
   </div>
   
   <div class="wrp">
     <div class="color-box" style="background-color: #f9e7d3">
         <span class="text">#f9e7d3</span>
     </div>
-    <h2>Secondary</h2>
+    <h2>{{ 'pageLinks.styleguideSecondaryColor' | translate }}</h2>
   </div>
   
   <div class="wrp">
     <div class="color-box" style="background-color: #000000">
         <span class="text">#000000</span>
     </div>
-    <h2>Text primary</h2>
+    <h2>{{ 'pageLinks.styleguidePrimaryText' | translate }}</h2>
   </div>
   
   <div class="wrp">
     <div class="color-box" style="background-color: #3e3636">
         <span class="text">#3e3636</span>
     </div>
-    <h2>Text secondary</h2>
+    <h2>{{ 'pageLinks.styleguideSecondaryText' | translate }}</h2>
   </div>
 </div>
 
@@ -45,20 +45,20 @@
 
 <!-- Headings -->
 <div class="styleguideHeadings">
-  <h1>Heading 1</h1>
-  <h2>Heading 2</h2>
-  <h3>Heading 3</h3>
-  <h4>Heading 4</h4>
-  <h5>Heading 5</h5>
-  <h6>Heading 6</h6>
+  <h1>{{ 'pageLinks.styleguideHeading' | translate }} 1</h1>
+  <h2>{{ 'pageLinks.styleguideHeading' | translate }} 2</h2>
+  <h3>{{ 'pageLinks.styleguideHeading' | translate }} 3</h3>
+  <h4>{{ 'pageLinks.styleguideHeading' | translate }} 4</h4>
+  <h5>{{ 'pageLinks.styleguideHeading' | translate }} 5</h5>
+  <h6>{{ 'pageLinks.styleguideHeading' | translate }} 6</h6>
 </div>
 
 
 
 <!-- Buttons -->
 <div class="styleguideButtons">
-  <a class="colored_btn">Colored</a>
-  <a class="outlined_btn">Outlined</a>
+  <a class="colored_btn">{{ 'pageLinks.styleguideButtonColored' | translate }}</a>
+  <a class="outlined_btn">{{ 'pageLinks.styleguideButtonOutlined' | translate }}</a>
 </div>
 
 
@@ -66,7 +66,7 @@
 <!-- Search Form -->
 <div class="stuleguideSearchForm">
   <div class="form">
-    <input type="search" placeholder="Name or city of architect">
+    <input type="search" placeholder="{{'pageLinks.Search-area' | translate}}">
     <button class="icon">
         <img src="../../../../assets/images/search_icon.png" alt="search">
     </button>
