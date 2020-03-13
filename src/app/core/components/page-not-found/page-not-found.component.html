@@ -1,1 +1,12 @@
-<p>page-not-found works!</p>
+<div class="wrapper">
+    <div class="smile-wrapper">
+        <img src="/assets/images/sad-smile.png">
+    </div>
+    <h2>404</h2>
+    <h4>Page not found</h4>
+    <p>The Page you are looking for doesn`t exist or another error occured.<br>
+        <span (click)="history.back()">Go back</span>, or head over to 
+        <span [routerLink]="'/content'">Main page</span> to choose another direction 
+    </p>
+</div>
+
