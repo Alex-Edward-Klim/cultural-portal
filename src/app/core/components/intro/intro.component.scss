@@ -1,6 +1,28 @@
-// .generalWrapper {
-//   max-width: 1440px;
-// }
+.langSelector {
+  position: fixed;
+  height: 0;
+  width: 0;
+  top: 0;
+  left: 0;
+	border-top: 0px solid transparent;
+	border-left: 100px solid rgba(211, 211, 211, 0.5);
+	border-bottom: 100px solid transparent;
+  z-index: 1;
+}
+@media (max-width: 820px) {
+  .langSelector {
+    border-left: 70px solid rgba(211, 211, 211, 0.5);
+	  border-bottom: 70px solid transparent;
+  }
+}
+
+.langCheckbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 96;
+}
 
 .heading {
   position: relative;
@@ -63,7 +85,7 @@
 .subheadingWrapper {
   position: relative;
   height: 9vw;
-  width: 100%;
+  width: 80%;
   user-select: none;
   margin-left: 4vw;
   margin-bottom: 0;
