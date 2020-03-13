@@ -1,1 +1,31 @@
-<a routerLink="/content" class="intro__btn">{{'pageLinks.enter' | translate}}</a>
+<div class="generalWrapper">
+
+  <div class="heading">
+    <p class="heading-text" #mainHeading>{{ 'pageLinks.architectsOfBelarus' | translate }}</p>
+    <div class="fore-pic"></div>
+  </div>
+
+  <p id="subheadingIntroduction">{{ 'pageLinks.whatIs' | translate }}</p>
+
+  <div class="subheadingWrapper">
+    <div class="shield"></div>
+    <div class="text-effect">
+      <h1 *ngIf="localStorageReferenceObject.hasOwnProperty('lang') && localStorageReferenceObject.lang === 'ru'" class="neon" data-text="Культурный Портал?" contenteditable>Культурный Портал?</h1>
+      <h1 *ngIf="(localStorageReferenceObject.hasOwnProperty('lang') && localStorageReferenceObject.lang === 'en') || !localStorageReferenceObject.hasOwnProperty('lang')" class="neon" data-text="Culture Portal?" contenteditable>Culture Portal?</h1>
+      <h1 *ngIf="localStorageReferenceObject.hasOwnProperty('lang') && localStorageReferenceObject.lang === 'by'" class="neon" data-text="Культурны Партал?" contenteditable>Культурны Партал?</h1>
+      <div class="gradient"></div>
+      <div class="spotlight"></div>
+    </div>
+  </div>
+
+  <p class="description">{{ 'pageLinks.portalInfo' | translate }}</p>
+
+  <div class="buttonWrapper">
+    <a routerLink="/content" class="enterPortalLink">{{'pageLinks.enter' | translate}}<i class="movingStrip"></i></a>
+  </div>
+
+  <app-our-team></app-our-team>
+
+</div>
+
+<app-footer></app-footer>

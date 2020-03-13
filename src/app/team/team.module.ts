@@ -11,6 +11,9 @@ import { RouterModule } from '@angular/router';
     CommonModule,
     TranslateModule,
     RouterModule,
+  ],
+  exports: [
+    OurTeamComponent
   ]
 })
 export class TeamModule { }
