@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
-import { ArchitectsApiService } from 'src/app/core/services/architects-api.service';
-import { ActivatedRoute } from '@angular/router';
+import {Component, OnInit} from '@angular/core';
+import {ArchitectsApiService} from 'src/app/core/services/architects-api.service';
+import {ActivatedRoute} from '@angular/router';
+import {Architect} from '../../models/architect.interface';
 
 @Component({
   selector: 'app-architect-detailed',
@@ -8,13 +9,16 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./architect-detailed.component.scss']
 })
 export class ArchitectDetailedComponent implements OnInit {
-  public author;
+  public author: Architect;
 
-  constructor(private arcInfo: ArchitectsApiService, private route: ActivatedRoute) {}
+  constructor(
+    private arcInfo: ArchitectsApiService,
+    private route: ActivatedRoute,
+  ) {
+  }
 
   ngOnInit(): void {
     this.route.params.subscribe(params => {
-      window.scrollTo(0, 0);
       this.author = this.arcInfo.getById(params.id);
     });
   }
