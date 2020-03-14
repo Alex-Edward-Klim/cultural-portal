@@ -19,10 +19,5 @@ export class NavigationService {
       title: 'pageLinks.workLog',
       routing: '/content/worklog'
     },
-    {
-      title: 'pageLinks.styleGuide',
-
-      routing: '/content/styleguide',
-    },
   ];
 }

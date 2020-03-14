@@ -6,12 +6,14 @@
 .cityImage {
   display: block;
   width: 100%;
+  user-select: none;
 }
 
 .footerTextWrapper {
   padding: 25px 0;
   border: 1px solid #D29F9F;
   background-color: #D29F9F;
+  user-select: none;
 }
 
 .footerText {
@@ -20,6 +22,7 @@
   font-size: 20px;
   line-height: 30px;
   color: #3E3636;
+  user-select: none;
 }
 
 @media (max-width: 600px) {

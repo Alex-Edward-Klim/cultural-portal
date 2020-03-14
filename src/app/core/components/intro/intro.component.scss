@@ -179,6 +179,13 @@
   color: #3E3636;
 }
 
+@media (max-width: 500px) {
+  .description {
+    font-size: 3vw;
+  line-height: 4vw;
+  }
+}
+
 .buttonWrapper {
   text-align: center;
   margin: 4vw;
@@ -204,6 +211,12 @@
 }
 .enterPortalLink:hover {
   background: #AF8989;
+}
+
+@media (max-width: 500px) {
+  .enterPortalLink {
+    font-size: 3vw;
+  }
 }
 
 .movingStrip {
