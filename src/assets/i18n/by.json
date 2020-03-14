@@ -188,11 +188,13 @@
     "worktitle4": "Дом з аркай на Чырвонай Плошчы ў Маскве"
   },
   "dimlbc": {
-    "name": "Dmitri Lobachevski BY",
-    "feature": "Feature",
-    "time": "Time",
-    "feature1": "Feature1 BY",
-    "time1": "Time1"
+    "name": "Дзмiтрый Лабачэускi",
+    "feature": "Табліца з часам для рэалізацыі функцыянальнасці",
+    "time": "2ч",
+    "feature1": "Табліца самаацэнкі з дынамічнымі чэкбоксамі і спісам усіх патрабаванняў",
+    "time1": "2ч",
+    "feature2": "Worklog кампанент",
+    "time2": "4ч"
   },
   "julia": {
     "name": "Yuliya Takmakova",

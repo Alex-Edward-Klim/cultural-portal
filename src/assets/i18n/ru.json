@@ -189,10 +189,12 @@
   },
   "dimlbc": {
     "name": "Дмитрий Лобачевский",
-    "feature": "FeatureRU",
-    "time": "TimeRU",
-    "feature1": "Feature1",
-    "time1": "Time1RU"
+    "feature": "Таблица с временем для реализации функциональности",
+    "time": "2ч",
+    "feature1": "Таблица самооценки с динамическими чекбоксами и списком всех требований",
+    "time1": "2ч",
+    "feature2": "Worklog компонент",
+    "time2": "4ч"
   },
   "julia": {
     "name": "Yuliya Takmakova",

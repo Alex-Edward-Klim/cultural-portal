@@ -189,23 +189,25 @@
   },
   "dimlbc": {
     "name": "Dmitri Lobachevski",
-    "feature": "Feature",
-    "time": "Time",
-    "feature1": "Feature1",
-    "time1": "Time1"
+    "feature": "Table with hours and time for implementing functionality",
+    "time": "2h",
+    "feature1": "Self-evaluation with dynamic checkboxes and list of all requirements",
+    "time1": "2h",
+    "feature2": "Worklog component",
+    "time2": "4h"
   },
   "julia": {
     "name": "Yuliya Takmakova",
     "feature": "Application text translation engine",
-    "time": "2ч",
+    "time": "2h",
     "feature1": "Map component",
-    "time1": "2ч",
+    "time1": "2h",
     "feature2": "Video about the author component",
-    "time2": "2ч",
+    "time2": "2h",
     "feature3": "Timeline component",
-    "time3": "2ч",
+    "time3": "2h",
     "feature4": "Gallery Component",
-    "time4": "2ч"
+    "time4": "2h"
   },
   "alexKlim": {
     "name": "Alexey Klimovskoy",
