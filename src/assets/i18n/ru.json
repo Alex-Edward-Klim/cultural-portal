@@ -187,22 +187,34 @@
     "worktitle3": "Жилые дома и мост через реку Свислочь на Немиге в Минске",
     "worktitle4": "Дом с аркой на Красной Площади в Москве"
   },
-  "dimlbc": {
+  "dmitri": {
     "name": "Дмитрий Лобачевский",
-    "feature": "FeatureRU",
-    "time": "TimeRU",
-    "feature1": "Feature1",
-    "time1": "Time1RU"
+    "feature": "разработка модуля worklog",
+    "time": "3ч",
+    "feature1": "создание страницы worklog",
+    "time1": "2ч",
+    "feature2": "реализация динамических чекбоксов",
+    "time2": "4ч",
+    "feature3": "реалицация таблицы с дневником разработки",
+    "time3": "2ч",
+    "feature4": "реализация описания основных трудностей",
+    "time4": "1ч"
   },
   "julia": {
-    "name": "Yuliya Takmakova",
-    "feature": "FeatureRU",
-    "time": "Time",
-    "feature1": "Feature1RU",
-    "time1": "Time1"
+    "name": "Юлия Токмакова",
+    "feature": "разработка UI дизайна",
+    "time": "7ч",
+    "feature1": "разработка UX дизайна",
+    "time1": "7ч",
+    "feature2": "реализания модуля team",
+    "time2": "2ч",
+    "feature3": "создание стайлгайда",
+    "time3": "3ч",
+    "feature4": "работа над Storybook",
+    "time4": "4ч"
   },
-  "alexKlim": {
-    "name": "Alexey Klimovskoy",
+  "alexey": {
+    "name": "Алексей Климовской",
     "feature": "базовая структура проекта, модули, роутинг",
     "time": "3ч",
     "feature1": "реализация сложных анимаций, страница intro",
@@ -215,54 +227,72 @@
     "time4": "2ч"
   },
   "pavel": {
-    "name": "Pavel Leskavets",
-    "feature": "Feature",
-    "time": "time",
-    "feature1": "Feature1RU",
-    "time1": "time1"
+    "name": "Павел Лесковец",
+    "feature": "страница с детальной информацией (техническая часть)",
+    "time": "6ч",
+    "feature1": "реализация виджета для галереи",
+    "time1": "2ч",
+    "feature2": "реализация виджета для таймлайна",
+    "time2": "3ч",
+    "feature3": "реализация виджетов для карт и видео",
+    "time3": "4ч",
+    "feature4": "работа с внешними библиотеками",
+    "time4": "2ч"
   },
   "vladimir": {
-    "name": "Vladimir Drachuk",
-    "feature": "Feature",
-    "time": "time",
-    "feature1": "Feature1RU",
-    "time1": "time1"
+    "name": "Владимир Драчук",
+    "feature": "разработка модуля main",
+    "time": "3ч",
+    "feature1": "страница с детальной информацией (визуальная часть)",
+    "time1": "4ч",
+    "feature2": "реализация компонентов header и footer",
+    "time2": "3ч",
+    "feature3": "предрендеринг страниц с помощью Scully",
+    "time3": "4ч",
+    "feature4": "исправление ошибок и деплой приложения",
+    "time4": "1ч"
   },
-  "alex": {
-    "name": "Oleksandr Klymenko",
-    "feature": "Feature",
-    "time": "time",
-    "feature1": "Feature1RU",
-    "time1": "time1"
+  "oleksandr": {
+    "name": "Олександр Клименко",
+    "feature": "разработка модуля architects",
+    "time": "4ч",
+    "feature1": "создание страницы со списком",
+    "time1": "3ч",
+    "feature2": "реализация поиска на странице со списком",
+    "time2": "2ч",
+    "feature3": "дополнительные настройки роутинга и скролла",
+    "time3": "1ч",
+    "feature4": "тестирование приложения",
+    "time4": "2ч"
   },
   "min-scope": {
-    "title": "Минимальный функционал",
-    "item1": "Main page + page with a list of authors + author's page (only pages with content without widgets) RU",
-    "item2": "Page with team members + page with worklog",
-    "item3": "Page with list of authors contains search widget",
-    "item4": "Portal has two languages"
+    "title": "Минимальный Функционал",
+    "item1": "Главная страница + страница со списком всех архитекторов + страница с детальной информацией об архитекторе (только страницы с контентом без виджетов)",
+    "item2": "Страница с участниками команды + страница с дневником разработки",
+    "item3": "Страница со списком всех архитекторов содержит поисковый виджет",
+    "item4": "У портала два языка"
   },
   "normal-scope": {
-    "title": "Базовый функционал",
-    "item1": "Portal has page with styleguide RU",
-    "item2": "Mobile version is okey",
-    "item3": "Ipad/tablet version is okey",
-    "item4": "Author's page contains timeline",
-    "item5": "Author's page contains video overlay",
-    "item6": "Author's page contains photo gallery",
-    "item7": "Author's page contains map (geowidget)",
-    "item8": "Design (typography, icons, colors, links + buttons + input, ui components are styled)",
-    "item9": "Material-ui / bootstrap is used",
-    "item10": "Portal has third language"
+    "title": "Стандартный Функционал",
+    "item1": "На портале есть страница со стилями",
+    "item2": "Версия для телефона в порядке",
+    "item3": "Версия для Ipad или tablet в порядке",
+    "item4": "Страница с детальной информацией об архитекторе содержит таймлайн",
+    "item5": "Страница с детальной информацией об архитекторе содержит видео-оверлей",
+    "item6": "Страница с детальной информацией об архитекторе содержит фото-галерею",
+    "item7": "Страница с детальной информацией об архитекторе содержит карту (геовиджет)",
+    "item8": "Дизайн (шрифты, иконки, цвета, ссылки + кнопки + ввод, UI-компоненты стилизованы)",
+    "item9": "Используется Material-UI или Bootstrap",
+    "item10": "У портала есть третий язык"
   },
   "extra-scope": {
-    "title": "Дополнительный функционал",
-    "item1": "Confidence of the project presentation RU",
-    "item2": "Project is made using scully",
-    "item3": "Contentful / netlify cms / other cms is used for content management",
-    "item4": "Animations / special effects like paralax",
-    "item5": "Outstanding design",
-    "item6": "Storybook/angularplayground/compodoc/other angulaer styleguide/documentation tool usage for the page with stylesq"
+    "title": "Дополнительный Функционал",
+    "item1": "Уверенная презентация проекта",
+    "item2": "Проект создан при использовании Scully",
+    "item3": "Используется Contentful, Netlify CMS или другая CMS для управления контентом",
+    "item4": "Анимации / спецэффекты такие, как paralax",
+    "item5": "Превосходный дизайн",
+    "item6": "Используются Storybook, Angularplayground, Compodoc или другие ангуляровские инструменты стайлгайда/документации для страницы со стилями"
   },
   "worklog": {
     "header": "Дневник разработки",
@@ -276,6 +306,6 @@
     "difficulty2-author": "Павел Лесковец",
     "difficulty3": "Некоторые вещи из дополнительного функционала. Например, CMS и Scully показались довольно непростыми. Пока разберёшься и поймёшь, как они работают, это может занять много сил и времени.",
     "difficulty3-author": "Владимир Драчук",
-    "total": "Общее количество"
+    "total": "Всего"
   }
 }

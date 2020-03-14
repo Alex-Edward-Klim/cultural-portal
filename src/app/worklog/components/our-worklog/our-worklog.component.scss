@@ -1,10 +1,25 @@
+@import 'variables.scss';
+
 h2 {
   margin-top: 3rem;
   margin-bottom: 3.5rem;
   text-align: center;
   font-size: 1.8rem;
   font-weight: normal;
-  color: #3E3636;
+  color: $font_color;
+  @media (max-width: 769px) {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+  }
+  @media (max-width: 426px) {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  @media (max-width: 321px) {
+    margin-bottom: .8rem;
+    margin-top: 1rem;
+  }
 }
 .accordion-wrapper {
   width: 90%;
@@ -12,37 +27,78 @@ h2 {
 }
 
 mat-expansion-panel {
-  background-color: #D29F9F;
+  background-color: $main_color;
 }
 mat-panel-title {
   font-size: 1.2rem;
-  color: #3E3636;
+  color: $font-color;
+  @media (max-width: 769px) {
+    font-size: 1rem;
+  }
 }
 table {
   width: 100%;
 }
 th {
-  background-color: #F9E7D3;
+  background-color: $sub_color;
+}
+.feature {
+  width: 80%;
+  @media (max-width: 769px) {
+    width: 90%;
+  }
+}
+.mat-cell {
+  @media (max-width: 426px) {
+    padding-right: .1rem;
+    font-size: .8rem;
+  }
+  @media (max-width: 321px) {
+    font-size: .7rem;
+  }
 }
 .difficulties-wrapper {
   margin-top: 3rem;
   padding: 2rem;
-  background-color: #F9E7D3;
+  background-color: $main-color;
+  @media (max-width: 426px) {
+    margin-top: 1rem;
+    padding: 1rem;
+  }
 }
 .difficulties-header {
   margin-top: 1rem;
   margin-bottom: 3rem;
   text-align: center;
+  font-size: 2rem;
+  @media (max-width: 769px) {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+  }
 }
 .difficulties {
   width: 75%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  font-size: 1rem;
+  @media (max-width: 769px) {
+    width: 85%;
+    font-size: .9rem;
+  }
+  @media (max-width: 426px) {
+    font-size: .8rem;
+  }
 }
 .author {
   align-self: flex-end;
   margin-bottom: 3rem;
+  @media (max-width: 769px) {
+    margin-bottom: 2rem;
+  }
+  @media (max-width: 426px) {
+    margin-bottom: 1.5rem;
+  }
 }
 .self-evaluation-container {
   width: 85%;
@@ -54,23 +110,44 @@ th {
   font-size: 2rem;
   font-weight: normal;
   text-align: center;
+  @media (max-width: 769px) {
+    font-size: 1.8rem;
+  }
+  @media (max-width: 426px) {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
 }
 .total {
   align-self: flex-start;
   margin-bottom: 1rem;
   padding: 0.4rem;
   font-size: 1.2rem;
-  border-bottom: 5px solid #D29F9F;
+  border-bottom: 5px solid $main-color;
+  @media (max-width: 426px) {
+    font-size: 1rem;
+  }
 }
 .min-scope, .normal-scope, .extra-scope {
   display: flex;
   flex-direction: column;
   margin-bottom: 1rem;
 }
-mat-checkbox{
+mat-checkbox {
   font-size: 1rem;
   margin-bottom: .2rem;
+  @media (max-width: 426px) {
+    font-size: 0.8rem;
+  }
 }
+.mat-checkbox-layout {
+  white-space: normal !important;
+}
+
 .total-container {
   font-size: 1.5rem;
+  @media (max-width: 426px) {
+    font-size: 1rem;
+  }
 }

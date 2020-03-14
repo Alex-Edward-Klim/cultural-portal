@@ -187,21 +187,33 @@
     "worktitle3": "Residential buildings and a bridge over the Svisloch River on Nemiga in Minsk",
     "worktitle4": "House with an arch on Red Square in Moscow"
   },
-  "dimlbc": {
+  "dmitri": {
     "name": "Dmitri Lobachevski",
-    "feature": "Feature",
-    "time": "Time",
-    "feature1": "Feature1",
-    "time1": "Time1"
+    "feature": "worklog module implementation",
+    "time": "3h",
+    "feature1": "worklog page creation",
+    "time1": "2h",
+    "feature2": "dynamic checkboxes implementation",
+    "time2": "4h",
+    "feature3": "worklog table implementation",
+    "time3": "2h",
+    "feature4": "main difficulties description implementation",
+    "time4": "1h"
   },
   "julia": {
     "name": "Yuliya Takmakova",
-    "feature": "Feature",
-    "time": "Time",
-    "feature1": "Feature1",
-    "time1": "Time1"
+    "feature": "User Interface Design",
+    "time": "7h",
+    "feature1": "User Experience Design",
+    "time1": "7h",
+    "feature2": "team module implementation",
+    "time2": "2h",
+    "feature3": "styleguide creation",
+    "time3": "3h",
+    "feature4": "working on the Storybook tool",
+    "time4": "4h"
   },
-  "alexKlim": {
+  "alexey": {
     "name": "Alexey Klimovskoy",
     "feature": "basic project structure, modules, routing",
     "time": "3h",
@@ -216,57 +228,75 @@
   },
   "pavel": {
     "name": "Pavel Leskavets",
-    "feature": "Feature",
-    "time": "time",
-    "feature1": "Feature1",
-    "time1": "time1"
+    "feature": "detailed info page (technical part)",
+    "time": "6h",
+    "feature1": "gallery widget implementation",
+    "time1": "2h",
+    "feature2": "timeline widget implementation",
+    "time2": "3h",
+    "feature3": "maps and video widgets implementation",
+    "time3": "4h",
+    "feature4": "work with external libraries",
+    "time4": "2h"
   },
   "vladimir": {
     "name": "Vladimir Drachuk",
-    "feature": "Feature",
-    "time": "time",
-    "feature1": "Feature1",
-    "time1": "time1"
+    "feature": "main module implementation",
+    "time": "3h",
+    "feature1": "detailed info page implementation (visual part)",
+    "time1": "4h",
+    "feature2": "header and footer implementation",
+    "time2": "3h",
+    "feature3": "pre-rendering each page with Scully",
+    "time3": "4h",
+    "feature4": "bug fixing and application deployment",
+    "time4": "1h"
   },
-  "alex": {
+  "oleksandr": {
     "name": "Oleksandr Klymenko",
-    "feature": "Feature",
-    "time": "time",
-    "feature1": "Feature1",
-    "time1": "time1"
+    "feature": "architects module implementation",
+    "time": "4h",
+    "feature1": "list page creation",
+    "time1": "3h",
+    "feature2": "list page search implementation",
+    "time2": "2h",
+    "feature3": "extra routing and scroll configuration",
+    "time3": "1h",
+    "feature4": "application testing",
+    "time4": "2h"
   },
   "min-scope": {
-    "title": "Min Scope",
-    "item1": "Main page + page with a list of authors + author's page (only pages with content without widgets)",
+    "title": "Minimal Scope",
+    "item1": "Main page + page with a list of architects + architect's page (only pages with content without widgets)",
     "item2": "Page with team members + page with worklog",
-    "item3": "Page with list of authors contains search widget",
+    "item3": "Page with list of architects contains search widget",
     "item4": "Portal has two languages"
   },
   "normal-scope": {
     "title": "Normal Scope",
-    "item1": "Portal has page with styleguide",
+    "item1": "Portal has a page with styleguide",
     "item2": "Mobile version is okey",
     "item3": "Ipad/tablet version is okey",
-    "item4": "Author's page contains timeline",
-    "item5": "Author's page contains video overlay",
-    "item6": "Author's page contains photo gallery",
-    "item7": "Author's page contains map (geowidget)",
-    "item8": "Design (typography, icons, colors, links + buttons + input, ui components are styled)",
-    "item9": "Material-ui / bootstrap is used",
+    "item4": "Architect's page contains timeline",
+    "item5": "Architect's page contains video overlay",
+    "item6": "Architect's page contains photo gallery",
+    "item7": "Architect's page contains map (geowidget)",
+    "item8": "Design (typography, icons, colors, links + buttons + input, UI components are styled)",
+    "item9": "Material-UI / bootstrap is used",
     "item10": "Portal has third language"
   },
   "extra-scope": {
     "title": "Extra Scope",
     "item1": "Confidence of the project presentation",
-    "item2": "Project is made using scully",
+    "item2": "Project is made using Scully",
     "item3": "Contentful / netlify cms / other cms is used for content management",
     "item4": "Animations / special effects like paralax",
     "item5": "Outstanding design",
-    "item6": "Storybook/angularplayground/compodoc/other angulaer styleguide/documentation tool usage for the page with stylesq"
+    "item6": "Storybook / angularplayground / compodoc / other angulaer styleguide / documentation tool usage for the page with styles"
   },
   "worklog": {
     "header": "Worklog",
-    "title": "Self-evaluation",
+    "title": "Self-Evaluation",
     "feature": "Feature",
     "time": "Time spent",
     "worklog-difficulties": "What are the main challenges faced during the application development process?",
