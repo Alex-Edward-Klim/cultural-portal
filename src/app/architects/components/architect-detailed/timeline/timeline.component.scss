@@ -2,6 +2,9 @@
 
 section {
   padding: 100px 0;
+  margin-top: -50px;
+  font-size: 17px;
+  line-height: 24px;
 }
 
 h4 {
@@ -89,4 +92,32 @@ h4 {
   left: 50%;
   margin-top: 25px;
   margin-left: -15px;
+  z-index: 2;
+}
+
+@media (max-width: 1280px) {
+  section {
+      p {
+        font-size: 15px; 
+        line-height: 20px;
+      }
+  }
+  h4 {
+      font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  section {
+      p {
+        font-size: 10px;
+        line-height: 15px;
+      }
+  }
+  h4 {
+      font-size: 17px;
+  }
+  .timeline-content {
+    padding: 10px 0 !important;
+  }
 }
