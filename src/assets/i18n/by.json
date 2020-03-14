@@ -196,10 +196,16 @@
   },
   "julia": {
     "name": "Yuliya Takmakova",
-    "feature": "Feature BY",
-    "time": "Time",
-    "feature1": "Feature1 BY",
-    "time1": "Time1"
+    "feature": "Механізм перакладу тэксту прыкладання",
+    "time": "2ч",
+    "feature1": "Кампанент карты",
+    "time1": "2ч",
+    "feature2": "Кампанент відэа пра аўтара",
+    "time2": "2ч",
+    "feature3": "кампанент 'Timeline'",
+    "time3": "2ч",
+    "feature4": "Кампанент галерэя",
+    "time4": "2ч"
   },
   "alexKlim": {
     "name": "Alexey Klimovskoy",
