@@ -244,7 +244,7 @@
     "time1": "time1"
   },
   "min-scope": {
-    "title": "Minimal Scope:",
+    "title": "Minimal Scope",
     "item1": "Main page + page with a list of architects + architect's page (only pages with content without widgets)",
     "item2": "Page with team members + page with worklog",
     "item3": "Page with list of architects contains search widget",

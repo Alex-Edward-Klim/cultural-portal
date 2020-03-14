@@ -1,5 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-
 @import './scss/variables';
 @import './scss/mixins';
 
@@ -32,4 +31,8 @@ a {
 .modal-backdrop {
   /* bug fix - no overlay */
   display: none;
+}
+
+.mat-checkbox-layout {
+  white-space: normal !important;
 }

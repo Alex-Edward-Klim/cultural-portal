@@ -65,14 +65,13 @@
     <div class="total">
       {{'extra-scope.title' | translate}}: {{extraScopeActual}}/{{extraScopeTotal}}
     </div>
-    <mat-checkbox *ngFor="let item of extraScope"
-                  [checked]="item.completed"
-                  (change)="item.completed = !item.completed;
-                  onExtraScopeChange()"
-    >
-      <strong>+{{item.value}}</strong>
-      {{item.text | translate}}
-    </mat-checkbox>
+    <div class="checkbox-container" *ngFor="let item of extraScope">
+      <mat-checkbox  [checked]="item.completed"
+                     (change)="item.completed = !item.completed; onExtraScopeChange()">
+        <strong>+{{item.value}}</strong>
+        {{item.text | translate}}
+      </mat-checkbox>
+    </div>
   </div>
   <div class="total-container">
     {{'worklog.total' | translate}}: {{actualScore}} / {{totalScore}}
