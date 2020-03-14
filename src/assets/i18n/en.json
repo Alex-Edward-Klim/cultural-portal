@@ -236,37 +236,37 @@
     "time1": "time1"
   },
   "min-scope": {
-    "title": "Min Scope",
-    "item1": "Main page + page with a list of authors + author's page (only pages with content without widgets)",
+    "title": "Minimal Scope:",
+    "item1": "Main page + page with a list of architects + architect's page (only pages with content without widgets)",
     "item2": "Page with team members + page with worklog",
-    "item3": "Page with list of authors contains search widget",
+    "item3": "Page with list of architects contains search widget",
     "item4": "Portal has two languages"
   },
   "normal-scope": {
     "title": "Normal Scope",
-    "item1": "Portal has page with styleguide",
+    "item1": "Portal has a page with styleguide",
     "item2": "Mobile version is okey",
     "item3": "Ipad/tablet version is okey",
-    "item4": "Author's page contains timeline",
-    "item5": "Author's page contains video overlay",
-    "item6": "Author's page contains photo gallery",
-    "item7": "Author's page contains map (geowidget)",
-    "item8": "Design (typography, icons, colors, links + buttons + input, ui components are styled)",
-    "item9": "Material-ui / bootstrap is used",
+    "item4": "Architect's page contains timeline",
+    "item5": "Architect's page contains video overlay",
+    "item6": "Architect's page contains photo gallery",
+    "item7": "Architect's page contains map (geowidget)",
+    "item8": "Design (typography, icons, colors, links + buttons + input, UI components are styled)",
+    "item9": "Material-UI / bootstrap is used",
     "item10": "Portal has third language"
   },
   "extra-scope": {
     "title": "Extra Scope",
     "item1": "Confidence of the project presentation",
-    "item2": "Project is made using scully",
+    "item2": "Project is made using Scully",
     "item3": "Contentful / netlify cms / other cms is used for content management",
     "item4": "Animations / special effects like paralax",
     "item5": "Outstanding design",
-    "item6": "Storybook/angularplayground/compodoc/other angulaer styleguide/documentation tool usage for the page with stylesq"
+    "item6": "Storybook/angularplayground/compodoc/other angulaer styleguide/documentation tool usage for the page with styles"
   },
   "worklog": {
     "header": "Worklog",
-    "title": "Self-evaluation",
+    "title": "Self-Evaluation",
     "feature": "Feature",
     "time": "Time spent",
     "worklog-difficulties": "What are the main challenges faced during the application development process?",

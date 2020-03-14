@@ -236,33 +236,33 @@
     "time1": "time1"
   },
   "min-scope": {
-    "title": "Мінімальны функцыянал",
-    "item1": "Main page + page with a list of authors + author's page (only pages with content without widgets) BY",
-    "item2": "Page with team members + page with worklog",
-    "item3": "Page with list of authors contains search widget",
-    "item4": "Portal has two languages"
+    "title": "Мінімальны Функцыянал",
+    "item1": "Галоўная старонка + старонка са спісам усіх архітэктараў + старонка з дэталёвай інфармацыяй аб архітэктары (толькі старонкі з кантэнтам без віджэтаў)",
+    "item2": "Старонка з удзельнікамі каманды + старонка з дзённікам распрацоўкі",
+    "item3": "Старонка са спісам усіх архітэктараў змяшчае пошукавы віджэт",
+    "item4": "У партала дзве мовы"
   },
   "normal-scope": {
-    "title": "Базавы функцыянал",
-    "item1": "Portal has page with styleguide BY",
-    "item2": "Mobile version is okey",
-    "item3": "Ipad/tablet version is okey",
-    "item4": "Author's page contains timeline",
-    "item5": "Author's page contains video overlay",
-    "item6": "Author's page contains photo gallery",
-    "item7": "Author's page contains map (geowidget)",
-    "item8": "Design (typography, icons, colors, links + buttons + input, ui components are styled)",
-    "item9": "Material-ui / bootstrap is used",
-    "item10": "Portal has third language"
+    "title": "Стандартны Функцыянал",
+    "item1": "На партале ёсць старонка са стылямі",
+    "item2": "Версія для тэлефона ў парадку",
+    "item3": "Версія для Ipad або tablet ў парадку",
+    "item4": "Артыкул з мэтавай дэталёвай інфармацыяй аб архітэктара змяшчае Таймлайн",
+    "item5": "Артыкул з мэтавай дэталёвай інфармацыяй аб архітэктары утрымлівае відэа-оверлэй",
+    "item6": "Артыкул з мэтавай дэталёвай інфармацыяй аб архітэктара змяшчае фота-галерэю",
+    "item7": "Артыкул з мэтавай дэталёвай інфармацыяй аб архітэктара змяшчае карту (геовиджетА",
+    "item8": "Дызайн (шрыфты, абразкі, колеру, спасылкі + кнопкі + ўвод, UI-кампаненты стылізаваныя)",
+    "item9": "Выкарыстоўваецца Material-UI або Bootstrap",
+    "item10": "У партала ёсць трэці мова"
   },
   "extra-scope": {
-    "title": "Дадатковы функцыянал",
-    "item1": "Confidence of the project presentation BY",
-    "item2": "Project is made using scully",
-    "item3": "Contentful / netlify cms / other cms is used for content management",
-    "item4": "Animations / special effects like paralax",
-    "item5": "Outstanding design",
-    "item6": "Storybook/angularplayground/compodoc/other angulaer styleguide/documentation tool usage for the page with stylesq"
+    "title": "Дадатковы Функцыянал",
+    "item1": "Упэўненая прэзентацыя праекта",
+    "item2": "Праект створаны пры выкарыстанні Scully",
+    "item3": "Выкарыстоўваецца Contentful, Netlify CMS або іншая CMS для кіравання кантэнтам",
+    "item4": "Анімацыі / спецэфекты такія, як paralax",
+    "item5": "Так, вельмі дызайн",
+    "item6": "Ці выкарыстоўваюцца Storybook, Angularplayground, Compodoc або іншыя ангуляровские інструменты стайлгайда / дакументацыі для старонкі са стылямі"
   },
   "worklog": {
     "header": "Дзённік распрацоўкі",
@@ -276,6 +276,6 @@
     "difficulty2-author": "Павел Лескавец",
     "difficulty3": "Некаторыя рэчы з дадатковага функцыяналу. Напрыклад, CMS і Scully здаліся даволі няпростымі. Пакуль разбярэшся і зразумееш, як яны працуюць, гэта можа заняць шмат сіл і часу.",
     "difficulty3-author": "Уладзімір Драчук",
-    "total": "Агульная колькасьць"
+    "total": "Усяго"
   }
 }
