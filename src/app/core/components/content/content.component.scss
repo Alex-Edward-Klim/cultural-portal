@@ -48,3 +48,18 @@ mat-sidenav {
         z-index: 21;
     }
 }
+
+/* footer side lines */
+
+mat-sidenav-content {  
+    position: relative;
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        height: 142px;
+        width: 100%;
+        background-color: $main_color;
+        z-index: -1;
+    }
+}
