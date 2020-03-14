@@ -10,7 +10,6 @@ import { MainModule } from './main/main.module';
 import { ArchitectsModule } from './architects/architects.module';
 import { TeamModule } from './team/team.module';
 import { WorklogModule } from './worklog/worklog.module';
-import { StyleguideModule } from './styleguide/styleguide.module';
 import { ArchitectsData } from '../locales/architects-data';
 import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
 import { ScullyLibModule } from '@scullyio/ng-lib';
@@ -27,7 +26,6 @@ import { ScullyLibModule } from '@scullyio/ng-lib';
     ArchitectsModule,
     TeamModule,
     WorklogModule,
-    StyleguideModule,
     MatInputModule,
     MDBBootstrapModule.forRoot(),
     AnimateOnScrollModule.forRoot(),
