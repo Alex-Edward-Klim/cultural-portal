@@ -197,20 +197,20 @@
     "time2": "4ч"
   },
   "julia": {
-    "name": "Yuliya Takmakova",
+    "name": "Юлія Такмакова",
     "feature": "Механізм перакладу тэксту прыкладання",
     "time": "2ч",
     "feature1": "Кампанент карты",
     "time1": "2ч",
     "feature2": "Кампанент відэа пра аўтара",
     "time2": "2ч",
-    "feature3": "кампанент 'Timeline'",
+    "feature3": "Кампанент 'Timeline'",
     "time3": "2ч",
     "feature4": "Кампанент галерэя",
     "time4": "2ч"
   },
   "alexKlim": {
-    "name": "Alexey Klimovskoy",
+    "name": "Аляксей Клімаўской",
     "feature": "базавая структура праекта, модулі, роўтынг",
     "time": "3ч",
     "feature1": "рэалізацыя складаных анімацый, старонка intro",
@@ -223,21 +223,21 @@
     "time4": "2ч"
   },
   "pavel": {
-    "name": "Pavel Leskavets",
+    "name": "Павел Лескавец",
     "feature": "Feature",
     "time": "time BY",
     "feature1": "Feature1",
     "time1": "time1"
   },
   "vladimir": {
-    "name": "Vladimir Drachuk",
+    "name": "Уладзімір Драчук",
     "feature": "Feature",
     "time": "time BY",
     "feature1": "Feature1",
     "time1": "time1"
   },
   "alex": {
-    "name": "Oleksandr Klymenko",
+    "name": "Олександр Кліменка",
     "feature": "Feature",
     "time": "time BY",
     "feature1": "Feature1",

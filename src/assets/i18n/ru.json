@@ -197,7 +197,7 @@
     "time2": "4ч"
   },
   "julia": {
-    "name": "Yuliya Takmakova",
+    "name": "Юлия Токмакова",
     "feature": "Механизм перевода текста приложения",
     "time": "2ч",
     "feature1": "Компонент карты",
@@ -210,7 +210,7 @@
     "time4": "2ч"
   },
   "alexKlim": {
-    "name": "Alexey Klimovskoy",
+    "name": "Алексей Климовской",
     "feature": "базовая структура проекта, модули, роутинг",
     "time": "3ч",
     "feature1": "реализация сложных анимаций, страница intro",
@@ -223,21 +223,21 @@
     "time4": "2ч"
   },
   "pavel": {
-    "name": "Pavel Leskavets",
+    "name": "Павел Лесковец",
     "feature": "Feature",
     "time": "time",
     "feature1": "Feature1RU",
     "time1": "time1"
   },
   "vladimir": {
-    "name": "Vladimir Drachuk",
+    "name": "Владимир Драчук",
     "feature": "Feature",
     "time": "time",
     "feature1": "Feature1RU",
     "time1": "time1"
   },
   "alex": {
-    "name": "Oleksandr Klymenko",
+    "name": "Олександр Клименко",
     "feature": "Feature",
     "time": "time",
     "feature1": "Feature1RU",

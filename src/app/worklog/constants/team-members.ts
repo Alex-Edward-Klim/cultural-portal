@@ -12,7 +12,8 @@ const dmitri: TeamMember = {
   name: 'dimlbc.name',
   features: [
     { feature: 'dimlbc.feature', time: 'dimlbc.time' },
-    { feature: 'dimlbc.feature1', time: 'dimlbc.time1' }
+    { feature: 'dimlbc.feature1', time: 'dimlbc.time1' },
+    { feature: 'dimlbc.feature2', time: 'dimlbc.time2' }
   ]
 };
 
@@ -20,7 +21,10 @@ const julia: TeamMember = {
   name: 'julia.name',
   features: [
     { feature: 'julia.feature', time: 'julia.time' },
-    { feature: 'julia.feature1', time: 'julia.time1' }
+    { feature: 'julia.feature1', time: 'julia.time1' },
+    { feature: 'julia.feature2', time: 'julia.time2' },
+    { feature: 'julia.feature3', time: 'julia.time3' },
+    { feature: 'julia.feature4', time: 'julia.time4' },
   ]
 };
 
@@ -59,4 +63,4 @@ const vladimir: TeamMember = {
   ]
 };
 
-export const teamMembersWorklog: TeamMember[] = [dmitri, julia, alex, alexKlim, vladimir, pavel];
+export const teamMembersWorklog: TeamMember[] = [julia, alex, alexKlim, vladimir, pavel, dmitri];
