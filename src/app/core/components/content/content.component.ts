@@ -19,11 +19,11 @@ export class ContentComponent {
 
   public open(): void {
     this.sidenav.open();
-    this.content.getElementRef().nativeElement.classList.add('content-blocked');    
+    this.content.getElementRef().nativeElement.classList.add('content-blocked');
   }
 
   public close(): void {
     this.sidenav.close();
     this.content.getElementRef().nativeElement.classList.remove('content-blocked');
-  } 
+  }
 }
