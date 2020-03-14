@@ -64,7 +64,7 @@ th {
   margin-top: 1rem;
   margin-bottom: 3rem;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
   @media (max-width: 769px) {
     margin-bottom: 2rem;
     font-size: 1.2rem;
@@ -75,8 +75,13 @@ th {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  font-size: 1rem;
   @media (max-width: 769px) {
     width: 85%;
+    font-size: .9rem;
+  }
+  @media (max-width: 426px) {
+    font-size: .8rem;
   }
 }
 .author {

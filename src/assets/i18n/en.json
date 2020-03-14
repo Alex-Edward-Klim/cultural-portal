@@ -187,29 +187,33 @@
     "worktitle3": "Residential buildings and a bridge over the Svisloch River on Nemiga in Minsk",
     "worktitle4": "House with an arch on Red Square in Moscow"
   },
-  "dimlbc": {
+  "dmitri": {
     "name": "Dmitri Lobachevski",
-    "feature": "Table with hours and time for implementing functionality",
-    "time": "2h",
-    "feature1": "Self-evaluation with dynamic checkboxes and list of all requirements",
+    "feature": "worklog module implementation",
+    "time": "3h",
+    "feature1": "worklog page creation",
     "time1": "2h",
-    "feature2": "Worklog component",
-    "time2": "4h"
+    "feature2": "dynamic checkboxes implementation",
+    "time2": "4h",
+    "feature3": "worklog table implementation",
+    "time3": "2h",
+    "feature4": "main difficulties description implementation",
+    "time4": "1h"
   },
   "julia": {
     "name": "Yuliya Takmakova",
-    "feature": "Application text translation engine",
-    "time": "2h",
-    "feature1": "Map component",
-    "time1": "2h",
-    "feature2": "Video about the author component",
+    "feature": "User Interface Design",
+    "time": "7h",
+    "feature1": "User Experience Design",
+    "time1": "7h",
+    "feature2": "team module implementation",
     "time2": "2h",
-    "feature3": "Timeline component",
-    "time3": "2h",
-    "feature4": "Gallery Component",
-    "time4": "2h"
+    "feature3": "styleguide creation",
+    "time3": "3h",
+    "feature4": "working on the Storybook tool",
+    "time4": "4h"
   },
-  "alexKlim": {
+  "alexey": {
     "name": "Alexey Klimovskoy",
     "feature": "basic project structure, modules, routing",
     "time": "3h",
@@ -224,24 +228,42 @@
   },
   "pavel": {
     "name": "Pavel Leskavets",
-    "feature": "Feature",
-    "time": "time",
-    "feature1": "Feature1",
-    "time1": "time1"
+    "feature": "detailed info page (technical part)",
+    "time": "6h",
+    "feature1": "gallery widget implementation",
+    "time1": "2h",
+    "feature2": "timeline widget implementation",
+    "time2": "3h",
+    "feature3": "maps and video widgets implementation",
+    "time3": "4h",
+    "feature4": "work with external libraries",
+    "time4": "2h"
   },
   "vladimir": {
     "name": "Vladimir Drachuk",
-    "feature": "Feature",
-    "time": "time",
-    "feature1": "Feature1",
-    "time1": "time1"
+    "feature": "main module implementation",
+    "time": "3h",
+    "feature1": "detailed info page implementation (visual part)",
+    "time1": "4h",
+    "feature2": "header and footer implementation",
+    "time2": "3h",
+    "feature3": "pre-rendering each page with Scully",
+    "time3": "4h",
+    "feature4": "bug fixing and application deployment",
+    "time4": "1h"
   },
-  "alex": {
+  "oleksandr": {
     "name": "Oleksandr Klymenko",
-    "feature": "Feature",
-    "time": "time",
-    "feature1": "Feature1",
-    "time1": "time1"
+    "feature": "architects module implementation",
+    "time": "4h",
+    "feature1": "list page creation",
+    "time1": "3h",
+    "feature2": "list page search implementation",
+    "time2": "2h",
+    "feature3": "extra routing and scroll configuration",
+    "time3": "1h",
+    "feature4": "application testing",
+    "time4": "2h"
   },
   "min-scope": {
     "title": "Minimal Scope",
