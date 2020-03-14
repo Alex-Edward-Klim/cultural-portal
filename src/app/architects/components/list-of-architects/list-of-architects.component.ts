@@ -13,7 +13,7 @@ export class ListOfArchitectsComponent implements OnInit {
 
   constructor(private architectService: ArchitectsApiService) {}
 
-  ngOnInit(): void {
+  public ngOnInit(): void {
     this.getArchitects();
   }
 

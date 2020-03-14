@@ -1,11 +1,12 @@
 :host {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   padding: 40px 30px 90px 30px;
 }
 
 div {
-  max-width: 800px;
+  padding-right: 40px;
 }
 
 p {
@@ -13,13 +14,19 @@ p {
   margin: 10px;
   font-size: 20px;
   line-height: 35px;
+  text-align: justify;
 }
+
+
 
 @media (max-width: 940px) {
   :host {
     flex-direction: column;
     align-items: center;
     padding-top: 10px;
+  }
+  div {
+    padding-right: 0;
   }
 }
 

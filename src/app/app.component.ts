@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { OurTranslateService } from './shared/services/translate.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'cultural-portal';
+
+  constructor(private translator: OurTranslateService) {
+    this.translator.setLanguage(this.translator.currentLang);
+  }
 }

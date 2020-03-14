@@ -13,7 +13,7 @@ export class ArchitectsData {
       authorOfTheDay: 'false',
       lng: 'en',
       birthPlace: 'birthPlace',
-      geovidgetLink: 'mid=1DMvXxw4BPZYozlqBwvqmgzWLMr6HpzH5',
+      geovidgetLink: 'mid=1DMvXxw4BPZYozlqBwvqmgzWLMr6HpzH5&hl=en',
       searchKey: 'searchKey',
       timelineData: [
         {
@@ -87,7 +87,7 @@ export class ArchitectsData {
       lng: 'en',
       searchKey: 'searchKey',
       birthPlace: 'birthPlace',
-      geovidgetLink: 'mid=10ZwynmgbM79zAAagBDpS4fxav_vpOQfO',
+      geovidgetLink: 'mid=10ZwynmgbM79zAAagBDpS4fxav_vpOQfO&hl=en',
       timelineData: [
         {
           date: '1768',
@@ -151,7 +151,7 @@ export class ArchitectsData {
       authorOfTheDay: 'false',
       lng: 'en',
       birthPlace: 'birthPlace',
-      geovidgetLink: 'mid=1XdWwCcjN5n_7C0kFCxcq2G2r2VYV6fFO',
+      geovidgetLink: 'mid=1XdWwCcjN5n_7C0kFCxcq2G2r2VYV6fFO&hl=en',
       searchKey: 'searchKey',
       timelineData: [
         {
@@ -206,7 +206,7 @@ export class ArchitectsData {
       authorOfTheDay: 'true',
       lng: 'en',
       birthPlace: 'birthPlace',
-      geovidgetLink: 'mid=1vhu3Tx8WxYjPhjjqoz1_mbK6wuDt-yPn',
+      geovidgetLink: 'mid=1vhu3Tx8WxYjPhjjqoz1_mbK6wuDt-yPn&hl=en',
       searchKey: 'searchKey',
       timelineData: [
         {
@@ -269,7 +269,7 @@ export class ArchitectsData {
       lng: 'en',
       searchKey: 'searchKey',
       birthPlace: 'birthPlace',
-      geovidgetLink: 'mid=1azzyT0kI_WJG5h08u9p0Kt-Nv_h_FO8s',
+      geovidgetLink: 'mid=1azzyT0kI_WJG5h08u9p0Kt-Nv_h_FO8s&hl=en',
       timelineData: [
         {
           date: '1907',
@@ -326,7 +326,7 @@ export class ArchitectsData {
       vita: 'vita',
       authorOfTheDay: 'false',
       lng: 'en',
-      geovidgetLink: 'mid=1h1uJwA9rkRhJToIj-Wna3cup2YWiBSDE',
+      geovidgetLink: 'mid=1h1uJwA9rkRhJToIj-Wna3cup2YWiBSDE&hl=en',
       searchKey: 'searchKey',
       birthPlace: 'birthPlace',
       timelineData: [
@@ -368,6 +368,149 @@ export class ArchitectsData {
           length: 27.551,
           date: '1764 - 1774',
           img: '/assets/works/Fontana/Синагога.jpg'
+        }
+      ]
+    },
+    {
+      id: '7',
+      path: 'shabunevsky',
+      name: 'name',
+      date: 'date',
+      img: 'assets/images/Shabunevsky.jpg',
+      videoId: 'a43rFmrY78c',
+      vita: 'vita',
+      authorOfTheDay: 'false',
+      lng: 'en',
+      geovidgetLink: 'mid=1ss2nwd8StdF6TlThZSXZU7yfEFYCTGKw&hl=en',
+      searchKey: 'searchKey',
+      birthPlace: 'birthPlace',
+      timelineData: [
+        {
+          date: '1892',
+          text: 'timeline1'
+        },
+        {
+          date: '1897',
+          text: 'timeline2'
+        },
+        {
+          date: '1903',
+          text: 'timeline3'
+        },
+        {
+          date: '1919',
+          text: 'timeline4'
+        },
+        {
+          date: '1924',
+          text: 'timeline5'
+        },
+        {
+          date: '1937',
+          text: 'timeline6'
+        },
+      ],
+      work: [
+        {
+          title: 'worktitle1',
+          width: 52.4333,
+          length: 31.0037,
+          date: '1898',
+          img: '/assets/works/Shabunevsky/Гимназия.jpg'
+        },
+        {
+          title: 'worktitle2',
+          width: 52.4304,
+          length: 31.0110,
+          date: '1901',
+          img: '/assets/works/Shabunevsky/Орловский.jpg'
+        },
+        {
+          title: 'worktitle3',
+          width: 52.4269,
+          length: 31.0137,
+          date: '1910-1912',
+          img: '/assets/works/Shabunevsky/Виленский.jpg'
+        },
+        {
+          title: 'worktitle4',
+          width: 52.4292,
+          length: 31.0062,
+          date: '1909',
+          img: '/assets/works/Shabunevsky/Доктор.jpg'
+        },
+        {
+          title: 'worktitle5',
+          width: 52.4155,
+          length: 31.0096,
+          date: '1915',
+          img: '/assets/works/Shabunevsky/Земская.jpg'
+        }
+      ]
+    },
+    {
+      id: '8',
+      path: 'parusnikov',
+      name: 'name',
+      date: 'date',
+      img: 'assets/images/Parusnikov.jpg',
+      videoId: 'Kzdllifv0UE',
+      vita: 'vita',
+      authorOfTheDay: 'false',
+      lng: 'en',
+      geovidgetLink: 'mid=1JQjnp6_ZKpRCdDrjjUKIqybiqkSB6sFC&hl=en',
+      searchKey: 'searchKey',
+      birthPlace: 'birthPlace',
+      timelineData: [
+        {
+          date: '1913-1918',
+          text: 'timeline1'
+        },
+        {
+          date: '1924',
+          text: 'timeline2'
+        },
+        {
+          date: '1941-1944',
+          text: 'timeline3'
+        },
+        {
+          date: '1944-1948',
+          text: 'timeline4'
+        },
+        {
+          date: '1953',
+          text: 'timeline5'
+        },
+      ],
+      work: [
+        {
+          title: 'worktitle1',
+          width: 53.8983,
+          length: 27.5543,
+          date: '1945—1947',
+          img: '/assets/works/Parusnikov/КГБ.jpg'
+        },
+        {
+          title: 'worktitle2',
+          width: 53.9000,
+          length: 27.5588,
+          date: '1950',
+          img: '/assets/works/Parusnikov/Нацбанк.jpg'
+        },
+        {
+          title: 'worktitle3',
+          width: 53.9066,
+          length: 27.5711,
+          date: '1954',
+          img: '/assets/works/Parusnikov/Мост.jpg'
+        },
+        {
+          title: 'worktitle4',
+          width: 57.6325,
+          length: 39.8871,
+          date: '1960',
+          img: '/assets/works/Parusnikov/Дом.jpg'
         }
       ]
     }

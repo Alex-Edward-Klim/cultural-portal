@@ -10,11 +10,27 @@ h4 {
 .photo_gallery {
   max-width: 600px;
   max-height: 400px;
-  margin: 0 auto;
+  margin: -100px auto 0;
+
 }
 
 .author_work_image {
   width: 600px;
   height: 400px;
+}
+
+@media (max-width: 768px) {
+  h4 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  :host {
+    width: 300px !important;
+  }
+  h4 {
+    font-size: 17px;
+  }
 }
 

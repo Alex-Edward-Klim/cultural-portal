@@ -45,6 +45,29 @@ mat-sidenav {
         display: block;
         position: fixed;
         top: 0;
-        z-index: 2;
+        z-index: 21;
+    }
+}
+
+/* footer side lines */
+
+mat-sidenav-content {  
+    position: relative;
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        height: 142px;
+        width: 100%;
+        background-color: $main_color;
+        z-index: -1;
+    }
+}
+
+@media (max-width: 1440px) {
+    mat-sidenav-content {
+        &::after {
+            display: none;
+        }
     }
 }

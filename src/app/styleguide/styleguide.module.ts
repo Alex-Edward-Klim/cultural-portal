@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { OurStyleguideComponent } from './components/our-styleguide/our-styleguide.component';
 import {TranslateModule} from '@ngx-translate/core';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -9,7 +10,8 @@ import {TranslateModule} from '@ngx-translate/core';
   declarations: [OurStyleguideComponent],
   imports: [
     CommonModule,
-    TranslateModule
+    TranslateModule,
+    RouterModule
   ]
 })
 export class StyleguideModule { }
