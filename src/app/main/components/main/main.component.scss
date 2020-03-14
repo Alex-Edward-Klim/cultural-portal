@@ -5,7 +5,7 @@
   padding: 40px 30px 90px 30px;
 }
 
-div {
+article {
   padding-right: 40px;
 }
 
@@ -17,7 +17,25 @@ p {
   text-align: justify;
 }
 
+div {
+  flex-shrink: 0;
+  width: 385px;
+}
 
+h4 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1280px) {
+  div {
+    width: 300px;
+  } 
+  h4 {
+    font-size: 25px;
+  }
+}
 
 @media (max-width: 940px) {
   :host {
@@ -25,8 +43,11 @@ p {
     align-items: center;
     padding-top: 10px;
   }
-  div {
+  article {
     padding-right: 0;
+  }
+  h4 {
+    margin: 20px 0 10px 0;
   }
 }
 
@@ -39,6 +60,9 @@ p {
     font-size: 17px;
     line-height: 30px;
   }
+  h4 {
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 420px) {
@@ -49,5 +73,8 @@ p {
   p {
     font-size: 14px;
     line-height: 20px;
+  }
+  h4{ 
+    font-size: 18px;
   }
 }

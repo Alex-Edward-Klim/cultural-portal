@@ -43,6 +43,12 @@
         margin: auto;
     }
   }
+  &__no-data {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    color: grey;
+  }
   &__list {
     display: flex;
     flex-wrap: wrap;
@@ -101,4 +107,8 @@
     border: 1px solid #3E3636;
     border-radius: 5px;
   }
+}
+
+.hide-elem {
+  display: none;
 }

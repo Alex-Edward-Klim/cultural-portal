@@ -1,7 +1,7 @@
 {
   "pageLinks": {
     "enter": "Explore the portal",
-    "home": "Home",
+    "home": "About",
     "main": "Main",
     "listOfArchitects": "List of architects",
     "ourTeam": "Our team",
@@ -14,6 +14,7 @@
     "Architect-of-day": "Architect of the day",
     "More": "Read more",
     "Architect": "Architect",
+    "nothing-to-search": "Your search did not match",
     "Main-content-1": "For centuries, architects, engineers, artists of different nationalities created in Belarus. Italians, Flemings, French, Germans, Belgians, Poles, Lithuanians, Russians worked here. In turn, immigrants from Belarus, including builders, craftsmen working in Russia and in many countries of Western Europe, gained fame there. ",
     "Main-content-2": "<span> Until the 9th century. </span> monumental architecture was at the initial stage of development and is represented by burial mounds and pagan temples.",
     "Main-content-3": "<span> IX-XI centuries. </span> characterized by the development of feudal relations, the introduction of Christianity, the flourishing of all areas of culture. Princely mansions, churches and monasteries appear.",
