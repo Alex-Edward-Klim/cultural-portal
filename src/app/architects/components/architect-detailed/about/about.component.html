@@ -1,0 +1,22 @@
+<div class="author">
+  <img [src]=" author.img " alt="photo">
+  <h4>{{author.path + '.' + author.name | translate}}</h4>
+  <p>{{author.path + '.' + author.date | translate}}</p>
+  <p>{{author.path + '.' + author.vita | translate }}</p>
+</div>
+<div class="portfolio">
+  <h4>{{'pageLinks.Important-works' | translate}}</h4>
+
+  <table>
+    <thead>
+    <td>{{'pageLinks.Building-name' | translate}}</td>
+    <td>{{'pageLinks.Built date' | translate}}</td>
+    </thead>
+    <tbody>
+    <tr *ngFor="let item of author.work" [item]="author.work.indexOf(item)" appColored>
+      <td class="works-name">{{author.path + '.' + item.title | translate }}</td>
+      <td class="works-year">{{item.date}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>

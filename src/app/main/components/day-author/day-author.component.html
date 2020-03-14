@@ -1,0 +1,9 @@
+<div class="img-wrapper">
+    <img [src]=randomArchitect.img alt="author">
+</div>
+<div class="content">
+    <h4>{{randomArchitect.path + '.' + randomArchitect.name | translate}}</h4>
+    <p>{{randomArchitect.path + '.' + randomArchitect.date | translate}}</p>
+    <p>{{randomArchitect.path + '.' + randomArchitect.vita | translate}}</p>
+    <a mat-stroked-button [routerLink]="['architects', randomArchitect.id]">{{'pageLinks.More' | translate}}</a>
+</div>

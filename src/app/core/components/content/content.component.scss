@@ -1,0 +1,73 @@
+@import '../../../../scss/variables';
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+button {
+    display: none;
+    outline: none;
+}
+
+mat-list-item {
+    border-bottom: 1px solid lightgrey;
+    padding: 0 5px;
+    outline: none;
+}
+
+mat-sidenav {
+    display: none;
+    .button-line {
+        height: 43px;
+        background-color: $main_color;
+    }
+}
+
+.content-blocked {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.active {
+    background-color: $sub_color;
+}
+
+@media (max-width: 630px) {
+    app-header {
+        padding: 43px;
+    }
+
+    mat-sidenav {
+        display: block;
+    }
+    button {
+        display: block;
+        position: fixed;
+        top: 0;
+        z-index: 21;
+    }
+}
+
+/* footer side lines */
+
+mat-sidenav-content {  
+    position: relative;
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        height: 142px;
+        width: 100%;
+        background-color: $main_color;
+        z-index: -1;
+    }
+}
+
+@media (max-width: 1440px) {
+    mat-sidenav-content {
+        &::after {
+            display: none;
+        }
+    }
+}

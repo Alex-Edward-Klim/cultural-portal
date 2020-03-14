@@ -1,9 +1,17 @@
-<div class="wrapper">
-  <p>HEADER</p>
-  <button (click)="navigationService.goToHome()">Home</button>
-  <button (click)="navigationService.goToMain()">Main</button>
-  <button (click)="navigationService.goToList()">List of Architects</button>
-  <button (click)="navigationService.goToTeam()">Our Team</button>
-  <button (click)="navigationService.goToWorklog()">Worklog</button>
-  <button (click)="navigationService.goToStyleguide()">Styleguide</button>
-</div>
+<header class="header">
+  <h1>{{ 'pageLinks.h1' | translate }}</h1>
+  <nav>
+    <ul>
+      <li *ngFor="let item of navigator">
+        <a [routerLink]=" item.routing "
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{exact: true}">{{ item.title | translate }}
+        </a>
+      </li>
+      <li>
+        <a href="https://hardcore-blackwell-f02ae7.netlify.com/?path=/story/timeline--timeline" target="_blank">{{ 'pageLinks.styleGuide' | translate }}</a>
+      </li>
+    </ul>
+    <app-language></app-language>
+</nav>
+</header>
