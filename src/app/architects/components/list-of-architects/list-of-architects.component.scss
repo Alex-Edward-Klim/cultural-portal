@@ -7,10 +7,12 @@
   &__label {
     position: relative;
     display: block;
+    width: 90%;
+    margin: 0 auto
   }
   &__search {
     margin: 25px auto;
-    max-width: 840px;
+    max-width: 900px;
   }
   &__input {
     padding: 7px 20px 8px;

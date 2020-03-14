@@ -63,3 +63,11 @@ mat-sidenav-content {
         z-index: -1;
     }
 }
+
+@media (max-width: 1440px) {
+    mat-sidenav-content {
+        &::after {
+            display: none;
+        }
+    }
+}
