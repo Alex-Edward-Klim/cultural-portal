@@ -13,6 +13,6 @@ export class DayAuthorComponent implements OnInit {
   constructor(private architectsApi: ArchitectsApiService ) { }
 
   ngOnInit(): void {
-    this.randomArchitect = this.architectsApi.getRandom();
+    this.architectsApi.getAll().then(authors => this.randomArchitect = authors[Math.floor(Math.random() * authors.length)]);
   }
 }

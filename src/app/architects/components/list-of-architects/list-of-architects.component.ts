@@ -18,6 +18,6 @@ export class ListOfArchitectsComponent implements OnInit {
   }
 
   public getArchitects(): void {
-    this.architects = this.architectService.getAll();
+    this.architectService.getAll().then(authors => this.architects = authors);
   }
 }

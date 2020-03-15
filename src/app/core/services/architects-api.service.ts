@@ -1,22 +1,24 @@
 import { Injectable } from '@angular/core';
-import { ArchitectsData } from '../../../locales/architects-data';
-import { Architect } from '../../architects/models/architect.interface';
+import { createClient } from 'contentful';
+import {environment} from '../../../environments/environment.prod';
+
 
 @Injectable({
   providedIn: 'root'
 })
 export class ArchitectsApiService {
-  constructor(private architectsData: ArchitectsData) {}
 
-  public getAll(): Architect[] {
-    return this.architectsData.authors;
-  }
+  private client = createClient({
+    space: environment.contentFul.space,
+    accessToken: environment.contentFul.accessToken
+  });
 
-  public getById(id: string): Architect {
-    return this.architectsData.authors.find(author => author.id === id);
-  }
+  constructor() {}
 
-  public getRandom(): Architect {
-    return this.architectsData.authors[Math.floor(Math.random() * this.architectsData.authors.length)];
+  public getAll(): Promise<any> {
+    return this.client.getEntries(Object.assign({
+      content_type: environment.contentFul.contentType
+    }))
+      .then((res: any) => res.items[0].fields.architects);
   }
 }
