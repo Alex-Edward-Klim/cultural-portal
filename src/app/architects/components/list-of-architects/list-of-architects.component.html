@@ -11,20 +11,22 @@
   </div>
   <div class="architects__container">
     <div class="architects__no-data hide-elem" #noDataElem>{{ 'pageLinks.nothing-to-search' | translate }}</div>
-    <ul class="architects__list">
-      <li class="architects__item arch-card" *ngFor="let architect of architects | searchBy:searchStr:noDataElem">
-        <div class="arch-card__preview">
-          <img [src]="architect?.img" [alt]="architect?.name" class="arch-card__img">
-        </div>
-        <div class="arch-card__content">
-          <div class="arch-card__title">{{architect.path + '.' + architect.name | translate}}</div>
-          <div class="arch-card__date">{{architect.path + '.' + architect.date | translate}}</div>
-          <div class="arch-card__desc">{{architect.path + '.' + architect.vita | translate}}</div>
-          <a class="arch-card__link" routerLink="/content/architects/{{architect.id}}">
-            {{'pageLinks.More' | translate}}
-          </a>
-        </div>
-      </li>
-    </ul>
+    <ng-container *ngIf="architects">
+      <ul class="architects__list">
+        <li class="architects__item arch-card" *ngFor="let architect of architects | searchBy:searchStr:noDataElem">
+          <div class="arch-card__preview">
+            <img [src]="architect?.img" [alt]="architect?.name" class="arch-card__img">
+          </div>
+          <div class="arch-card__content">
+            <div class="arch-card__title">{{architect.path + '.' + architect.name | translate}}</div>
+            <div class="arch-card__date">{{architect.path + '.' + architect.date | translate}}</div>
+            <div class="arch-card__desc">{{architect.path + '.' + architect.vita | translate}}</div>
+            <a class="arch-card__link" routerLink="/content/architects/{{architect.id}}">
+              {{'pageLinks.More' | translate}}
+            </a>
+          </div>
+        </li>
+      </ul>
+    </ng-container>
   </div>
 </div>

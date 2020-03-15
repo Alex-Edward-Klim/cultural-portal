@@ -19,7 +19,8 @@ export class ArchitectDetailedComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.params.subscribe(params => {
-      this.author = this.arcInfo.getById(params.id);
+      this.arcInfo.getAll().then(authors => this.author = authors
+        .find(author => author.id === params.id));
     });
   }
 }

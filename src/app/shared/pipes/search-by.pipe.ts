@@ -9,17 +9,17 @@ export class SearchByPipe implements PipeTransform {
   constructor(private translate: TranslateService) {}
 
   public transform(list: Architect[], search: string = '', noDataElem: HTMLDivElement): Architect[] {
-    if (!search) { noDataElem.classList.add('hide-elem') }
+    if (!search) { noDataElem.classList.add('hide-elem'); }
     if (!search.trim()) {
       return list;
     }
-    let result = list.filter(item =>
+    const result = list.filter(item =>
       this.translate
         .instant(`${item.path}.${item.searchKey}`)
         .toLowerCase()
         .includes(search.toLowerCase())
     );
     (result.length === 0) ? noDataElem.classList.remove('hide-elem') : noDataElem.classList.add('hide-elem');
-    return result; 
+    return result;
   }
 }

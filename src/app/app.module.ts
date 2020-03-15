@@ -10,7 +10,6 @@ import { MainModule } from './main/main.module';
 import { ArchitectsModule } from './architects/architects.module';
 import { TeamModule } from './team/team.module';
 import { WorklogModule } from './worklog/worklog.module';
-import { ArchitectsData } from '../locales/architects-data';
 import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
 import { ScullyLibModule } from '@scullyio/ng-lib';
 
@@ -32,7 +31,6 @@ import { ScullyLibModule } from '@scullyio/ng-lib';
     ScullyLibModule
   ],
   providers: [
-    ArchitectsData,
     OurTranslateService,
   ],
   bootstrap: [AppComponent]
